@@ -4,7 +4,7 @@ heroku:
 http://mysterious-waters-7607.herokuapp.com/ | git@heroku.com:mysterious-waters-7607.git
 renamed noodler
 So it's noodler.herokuapp.com.
+address api inquiries to noodler.herokuapp.com/api/<findstylesby...ending with fmt=json or whatever>
 
-How to run:
-go to folder /home/wes/hero2
+how to enable virtualenv:  source bin/activate
 

@@ -11811,7 +11811,7 @@
 			"typicallyEquippedSpecifications": [],
 			"squishVins": [
 				{
-					"squishVin": "1HGCP2F8BA",
+					"squishVin": "1HGCP2F8B4",
 					"engineNames": [
 						"4INAG2.4"
 					],
@@ -11823,7 +11823,7 @@
 					]
 				},
 				{
-					"squishVin": "1HGCP2F8B4",
+					"squishVin": "1HGCP2F8BA",
 					"engineNames": [
 						"4INAG2.4"
 					],
@@ -29012,7 +29012,7 @@
 			"typicallyEquippedSpecifications": [],
 			"squishVins": [
 				{
-					"squishVin": "1HGCP3F7BA",
+					"squishVin": "5KBCP3F7BB",
 					"engineNames": [
 						"6VNAG3.5"
 					],
@@ -29024,7 +29024,7 @@
 					]
 				},
 				{
-					"squishVin": "5KBCP3F7BB",
+					"squishVin": "1HGCP3F7BA",
 					"engineNames": [
 						"6VNAG3.5"
 					],

@@ -1,4 +1,3 @@
-# -*- coding: UTF-8  -*-
 import os
 from flask import Flask,request
 from urlparse import urlparse
@@ -21,14 +20,13 @@ def dataPassthru(api_path):
 		edResponse = requests.get(edm_qry)
 	except requests.ConnectionError:
 		return "Connection Error"
-	print "received the api string"
 	styleObj = edResponse.text
 	style_dict = demjson.decode(styleObj)
-	print "done with decoding json to dict"
-	#print style_dict # prints to terminal
-	return style_dict.styleHolder[0]["modelName"]
-	#return styleObj # this returns api string in its entirety, successfully.
-	
+	#print style_dict
+	#return style_dict.styleHolder[0].modelName
+	return styleObj # this returns api string in its entirety, successfully.
+	# return json.load(styleObj) # doesn't work, somehow I figured out before it's choking on non-"" strings like null and false.
+
 
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))
