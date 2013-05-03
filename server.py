@@ -3,7 +3,7 @@ from flask import Flask,request
 from urlparse import urlparse
 import requests
 import json
-
+# GET URLLIB for URL WORK?
 app = Flask(__name__)
 
 
@@ -14,7 +14,7 @@ def hello():
 @app.route("/api/<api_path>")
 def dataPassthru(api_path):
 	query = request.query_string
-	edm_qry = "http://api.edmunds.com/v1/api/vehicle/stylerepository/" + api_path + '?' + query + '&api_key=sbzh2xtvh99h73pzr398c2fc&fmt=json&callback=?'
+	edm_qry = "http://api.edmunds.com/v1/api/vehicle/stylerepository/" + api_path + '?' + query + '&api_key=sbzh2xtvh99h73pzr398c2fc&fmt=json'
 #http://api.edmunds.com/v1/api/vehicle/stylerepository/findstylesbymakemodelyear?make=honda&model=accord&year=2003&api_key=sbzh2xtvh99h73pzr398c2fc&fmt=json
 	try:
 		edResponse = requests.get(edm_qry)
