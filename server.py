@@ -28,7 +28,24 @@ def dataPassthru(api_path):
 	#print style_dict # prints to terminal
 	return style_dict.styleHolder[0]["modelName"]
 	#return styleObj # this returns api string in its entirety, successfully.
-	
+
+# sample destination: var http://www.edmunds.com/api/vehicle/style/100003100?fmt=full_json	
+@app.route("/fullstyleapi/<styleID_to_get>")
+def dataPassthru(styleID_to_get):
+	#query = request.query_string
+	edm_qry = 'http://www.edmunds.com/api/vehicle/style/' + styleID_to_get + '?fmt=full_json'
+	try:
+		edResponse = requests.get(edm_qry)
+	except requests.ConnectionError:
+		return "Connection Error"
+	print "received the api string"
+	styleObj = edResponse.text
+	style_dict = demjson.decode(styleObj)
+	#print "done with decoding json to dict"
+	#print style_dict # prints to terminal
+	#return style_dict.styleHolder[0]["modelName"] # returns just model name
+	return styleObj # this returns api string in its entirety, successfully.
+
 
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))
