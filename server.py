@@ -40,7 +40,7 @@ def dataPassthru(styleID_to_get):
 		return "Connection Error"
 	print "received the api string"
 	styleObj = edResponse.text
-	style_dict = demjson.decode(styleObj)
+	#style_dict = demjson.decode(styleObj)
 	#print "done with decoding json to dict"
 	#print style_dict # prints to terminal
 	#return style_dict.styleHolder[0]["modelName"] # returns just model name
