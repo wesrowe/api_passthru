@@ -13,7 +13,7 @@ def hello():
     return "Hello World!"
 
 @app.route("/api/<api_path>")
-def dataPassthru(api_path):
+def genericPassthru(api_path):
 	query = request.query_string
 	edm_qry = "http://api.edmunds.com/v1/api/vehicle/stylerepository/" + api_path + '?' + query + '&api_key=sbzh2xtvh99h73pzr398c2fc&fmt=json'
 #http://api.edmunds.com/v1/api/vehicle/stylerepository/findstylesbymakemodelyear?make=honda&model=accord&year=2003&api_key=sbzh2xtvh99h73pzr398c2fc&fmt=json
@@ -25,26 +25,26 @@ def dataPassthru(api_path):
 	styleObj = edResponse.text
 	style_dict = demjson.decode(styleObj)
 	print "done with decoding json to dict"
-	#print style_dict # prints to terminal
-	return style_dict.styleHolder[0]["modelName"]
-	#return styleObj # this returns api string in its entirety, successfully.
+	print style_dict["styleHolder"][0]["modelName"] # prints to terminal
+	return style_dict["styleHolder"][0]["modelName"]
+	return styleObj # this returns api string in its entirety, successfully.
 
 # sample destination: var http://www.edmunds.com/api/vehicle/style/100003100?fmt=full_json	
 @app.route("/fullstyleapi/<styleID_to_get>")
-def dataPassthru(styleID_to_get):
+def fullStylePassthru(styleID_to_get):
 	#query = request.query_string
 	edm_qry = 'http://www.edmunds.com/api/vehicle/style/' + styleID_to_get + '?fmt=full_json'
 	try:
 		edResponse = requests.get(edm_qry)
 	except requests.ConnectionError:
 		return "Connection Error"
-	print "received the api string"
+	print edm_qry
 	styleObj = edResponse.text
-	#style_dict = demjson.decode(styleObj)
+	style_dict = demjson.decode(styleObj)
 	#print "done with decoding json to dict"
 	#print style_dict # prints to terminal
-	#return style_dict.styleHolder[0]["modelName"] # returns just model name
-	return styleObj # this returns api string in its entirety, successfully.
+	return style_dict["styleHolder"][0]["modelName"] # returns just model name
+	#return styleObj # this returns api string in its entirety, successfully.
 
 
 if __name__ == "__main__":
