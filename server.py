@@ -39,12 +39,12 @@ def fullStylePassthru(styleID_to_get):
 	except requests.ConnectionError:
 		return "Connection Error"
 	print edm_qry
-	styleObj = edResponse.text
-	style_dict = demjson.decode(styleObj)
+	styleString = edResponse.text
+	style_dict = demjson.decode(styleString)
 	#print "done with decoding json to dict"
 	#print style_dict # prints to terminal
-	return style_dict["styleHolder"][0]["modelName"] # returns just model name
-	#return styleObj # this returns api string in its entirety, successfully.
+	#return style_dict["styleHolder"][0]["modelName"] # returns just model name
+	return styleString # this returns api string in its entirety, successfully.
 
 
 if __name__ == "__main__":
