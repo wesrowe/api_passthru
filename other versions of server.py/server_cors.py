@@ -1,5 +1,4 @@
 # -*- coding: UTF-8  -*-
-# THIS SERVER.PY IS EXACTLY SERVER_CORS.PY, SAVED W/O _CORS FOR HEROKU
 import os
 from flask import Flask,request
 from urlparse import urlparse
