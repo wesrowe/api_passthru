@@ -83,21 +83,26 @@ def genericPassthru(api_path):
 @crossdomain(origin='*')
 def modelPassthru(api_call):
 	query = request.query_string
-	edm_qry = "http://api.edmunds.com/v1/api/vehicle/" + api_call + '?' + query
+	edm_qry = "http://api.edmunds.com/v1/api/vehicle/modelrepository/" + api_call + '?' + query
 	try:
 		edResponse = requests.get(edm_qry)
 	except requests.ConnectionError:
 		return "Connection Error"
 	styleObj = edResponse.text
-	style_dict = demjson.decode(styleObj)
+	model_dict = demjson.decode(styleObj)
 	# keys I need here are just niceName, name, modelYears.
 	keys_as_is = { 'niceName', 'name', 'modelYears' }
-	new_style_dict = {}
-	new_style_dict["styleHolder"] = []
-	new_style_dict["styleHolder"].append( {} )
-	for key in keys_as_is:
-		new_style_dict["styleHolder"][0][key] = style_dict["styleHolder"][0][key]
-	return demjson.encode( new_style_dict )
+	new_model_dict = {}
+	new_model_dict["modelHolder"] = []
+	
+	for model in model_dict["modelHolder"]: # array of dicts, style is a dict
+		temp_dict = {}
+		for key in keys_as_is:
+			temp_dict[key] = model[key]
+		new_model_dict["modelHolder"].append( temp_dict )
+	
+	
+	return demjson.encode( new_model_dict )
 
 #TRIMS for menu
 @app.route("/trims/<api_call>")
