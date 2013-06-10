@@ -1,5 +1,5 @@
 # -*- coding: UTF-8  -*-
-# THIS SERVER.PY IS EXACTLY SERVER_CORS.PY, SAVED W/O _CORS FOR HEROKU
+# 6/1 THIS SERVER.PY IS EXACTLY SERVER_CORS.PY, SAVED W/O _CORS FOR HEROKU
 import os
 from flask import Flask,request
 from urlparse import urlparse
@@ -56,11 +56,6 @@ def crossdomain(origin=None, methods=None, headers=None,
         return update_wrapper(wrapped_function, f)
     return decorator
 
-#@default.route('/test', methods=['GET'])
-#@support_jsonp
-#def test():
-    #return jsonify({"foo":"bar"})
-
 @app.route("/")
 def hello():
     return "Hello World!"
@@ -82,12 +77,10 @@ def genericPassthru(api_path):
 	return style_dict["styleHolder"][0]["modelName"]
 	return styleObj # this returns api string in its entirety, successfully.
 
-# sample destination: var http://www.edmunds.com/api/vehicle/style/100003100?fmt=full_json	
 @app.route("/fullstyleapi/<styleID_to_get>") #, methods=['GET'])
-#@support_jsonp
 @crossdomain(origin='*')
 def fullStylePassthru(styleID_to_get):
-	#query = request.query_string
+	# sample destination: var http://www.edmunds.com/api/vehicle/style/100003100?fmt=full_json	
 	edm_qry = 'http://www.edmunds.com/api/vehicle/style/' + styleID_to_get + '?fmt=full_json'
 	try:
 		edResponse = requests.get(edm_qry)
@@ -96,10 +89,44 @@ def fullStylePassthru(styleID_to_get):
 	print edm_qry
 	styleString = edResponse.text
 	style_dict = demjson.decode(styleString)
-	#print "done with decoding json to dict"
-	#print style_dict # prints to terminal
 	#return style_dict["styleHolder"][0]["modelName"] # returns just model name
-	return styleString # this returns api string in its entirety, successfully.
+	
+	keys_as_is = { 'trim', 'niceName', 'makeName', 'year', 'id', 'modelName', 'engineCylinder', 'price', 'makeNiceName', 'engineSize', 'name', 'modelNiceName', 'publicationState' }
+	new_style_dict = {}
+	new_style_dict["styleHolder"] = []
+	new_style_dict["styleHolder"].append( {} )
+	for key in keys_as_is:
+		print key
+		new_style_dict["styleHolder"][0][key] = style_dict["styleHolder"][0][key]
+	
+	# set up deeper structure
+	new_style_dict["styleHolder"][0]["attributeGroups"] = {}
+	new_style_dict["styleHolder"][0]["standardEquipment"] = []
+	
+	# attributeGroups
+	attgrp_keepers = ["INTERIOR_DIMENSIONS","CARGO_DIMENSIONS","SPECIFICATIONS","EXTERIOR_DIMENSIONS","CRASH_TEST_RATINGS","PRICING"]
+	for akey in attgrp_keepers:
+		new_style_dict["styleHolder"][0]["attributeGroups"][akey] = style_dict["styleHolder"][0]["attributeGroups"][akey]
+		new_style_dict
+	
+	# standardEquipment
+	stdequip_keepers = ["ENGINE"]
+	for edm_equip_dict in style_dict["styleHolder"][0]["standardEquipment"]:
+		
+		for key in stdequip_keepers:
+			if key == edm_equip_dict["equipmentClass"]:    # we found it boss
+				new_style_dict["styleHolder"][0]["standardEquipment"].append( edm_equip_dict )
+				stdequip_keepers.pop( stdequip_keepers.index(key) ) # don't bother looking for it again
+				break
+		
+		if len(stdequip_keepers) == 0: # ran out of stdEquip objects to find
+			break #breaks out of biggest loop 
+	
+	
+	print new_style_dict["styleHolder"][0]["standardEquipment"][0]
+	
+	
+	return demjson.encode( new_style_dict )
 
 
 if __name__ == "__main__":
