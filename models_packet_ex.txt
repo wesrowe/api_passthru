@@ -1,0 +1,7863 @@
+{
+	"modelHolder": [
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Odyssey",
+			"name": "Odyssey",
+			"niceName": "odyssey",
+			"modelLinkCode": "M030283",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/odyssey/2008",
+					"id": "100524311",
+					"year": "2008"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/1998",
+					"id": "788",
+					"year": "1998"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/1997",
+					"id": "2164",
+					"year": "1997"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/1996",
+					"id": "2163",
+					"year": "1996"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/1995",
+					"id": "787",
+					"year": "1995"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/2001",
+					"id": "100000127",
+					"year": "2001"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/2004",
+					"id": "100503594",
+					"year": "2004"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/2012",
+					"id": "100537589",
+					"year": "2012"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/2007",
+					"id": "100519443",
+					"year": "2007"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/2005",
+					"id": "100504442",
+					"year": "2005"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/2000",
+					"id": "382",
+					"year": "2000"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/2011",
+					"id": "100530590",
+					"year": "2011"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/2006",
+					"id": "100506621",
+					"year": "2006"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/2002",
+					"id": "100000406",
+					"year": "2002"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/1999",
+					"id": "3539",
+					"year": "1999"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/2013",
+					"id": "200433235",
+					"year": "2013"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/2010",
+					"id": "100528789",
+					"year": "2010"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/2003",
+					"id": "100502805",
+					"year": "2003"
+				},
+				{
+					"link": "/api/vehicle/honda/odyssey/2009",
+					"id": "100526089",
+					"year": "2009"
+				}
+			],
+			"attributeGroups": {
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"USE_IN_NEW": {
+							"id": 10,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"NAME": {
+							"id": 1,
+							"name": "NAME",
+							"value": "Odyssey"
+						},
+						"YEAR": {
+							"id": 2,
+							"name": "YEAR",
+							"value": "2007"
+						},
+						"WORKFLOWSTATUS": {
+							"id": 9223372036854776000,
+							"name": "WORKFLOWSTATUS",
+							"value": "Published"
+						},
+						"USE_IN_FUTURE": {
+							"id": 595,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 12,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_USED": {
+							"id": 11,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 20,
+							"name": "MODEL_LINK_CODE",
+							"value": "M030283"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 3,
+							"name": "ED_MODEL_ID",
+							"value": "100519443"
+						}
+					}
+				}
+			},
+			"categories": {
+				"Vehicle Size": [
+					"Large",
+					"Compact"
+				],
+				"PRIMARY_BODY_TYPE": [
+					"Minivan"
+				],
+				"Vehicle Style": [
+					"Passenger Minivan"
+				],
+				"Vehicle Type": [
+					"Minivan"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"N/A"
+				]
+			},
+			"publicationStates": [
+				"NEW_USED",
+				"NEW",
+				"USED"
+			],
+			"subModels": {
+				"NEW": [
+					{
+						"id": 200435573,
+						"identifier": "Minivan",
+						"name": "Odyssey Minivan",
+						"ruleType": "body",
+						"styleIds": [
+							200433271,
+							200433270,
+							200433269,
+							200433275,
+							200433274,
+							200433273,
+							200433272
+						],
+						"publicationStates": [
+							"NEW"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/200433273"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/200433273"
+						}
+					}
+				],
+				"USED": [
+					{
+						"id": 200406900,
+						"identifier": "Minivan",
+						"name": "Odyssey Minivan",
+						"ruleType": "body",
+						"styleIds": [
+							100395364,
+							100347232,
+							100347233,
+							100347234,
+							100347231,
+							100347230
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100395364"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100347230"
+						}
+					},
+					{
+						"id": 200405615,
+						"identifier": "Minivan",
+						"name": "Odyssey Minivan",
+						"ruleType": "body",
+						"styleIds": [
+							100001267,
+							100001266,
+							100001268
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100001267"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100001268"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Minivan",
+						"name": "Odyssey Minivan",
+						"ruleType": "body",
+						"styleIds": [
+							7714,
+							7713
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/7714"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/7714"
+						}
+					},
+					{
+						"id": 200408305,
+						"identifier": "Minivan",
+						"name": "Odyssey Minivan",
+						"ruleType": "body",
+						"styleIds": [
+							100801025,
+							100801027,
+							100801026,
+							100801029,
+							100801028,
+							100801031,
+							100801030
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100801028"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100801025"
+						}
+					},
+					{
+						"id": 200405923,
+						"identifier": "Minivan",
+						"name": "Odyssey Minivan",
+						"ruleType": "body",
+						"styleIds": [
+							100003635,
+							100003636,
+							100003256,
+							100003255,
+							100003254
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100003635"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100003256"
+						}
+					},
+					{
+						"id": 200409236,
+						"identifier": "Minivan",
+						"name": "Odyssey Minivan",
+						"ruleType": "body",
+						"styleIds": [
+							101064478,
+							101064479,
+							101064476,
+							101064477,
+							101064475,
+							101064481,
+							101064480
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101064477"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101064475"
+						}
+					},
+					{
+						"id": 200410674,
+						"identifier": "Minivan",
+						"name": "Odyssey Minivan",
+						"ruleType": "body",
+						"styleIds": [
+							101406729,
+							101406731,
+							101406730,
+							101406733,
+							101406732,
+							101406735,
+							101406734
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101406732"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101406729"
+						}
+					},
+					{
+						"id": 200407826,
+						"identifier": "Minivan",
+						"name": "Odyssey Minivan",
+						"ruleType": "body",
+						"styleIds": [
+							100625412,
+							100625408,
+							100625409,
+							100625410,
+							100625411,
+							100625407,
+							100625435
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100625411"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100625407"
+						}
+					},
+					{
+						"id": 200406327,
+						"identifier": "Minivan",
+						"name": "Odyssey Minivan",
+						"ruleType": "body",
+						"styleIds": [
+							100178652,
+							100178648,
+							100178649,
+							100178650,
+							100178651
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100178651"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100178648"
+						}
+					},
+					{
+						"id": 200407155,
+						"identifier": "Minivan",
+						"name": "Odyssey Minivan",
+						"ruleType": "body",
+						"styleIds": [
+							100454396,
+							100454393,
+							100454409,
+							100454392,
+							100454410,
+							100454395,
+							100454394
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100454392"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100454392"
+						}
+					},
+					{
+						"id": 200409825,
+						"identifier": "Minivan",
+						"name": "Odyssey Minivan",
+						"ruleType": "body",
+						"styleIds": [
+							101358233,
+							101358235,
+							101358236,
+							101358237,
+							101358238,
+							101260557,
+							101358257
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101358235"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101260557"
+						}
+					},
+					{
+						"id": 200409553,
+						"identifier": "Minivan",
+						"name": "Odyssey Minivan",
+						"ruleType": "body",
+						"styleIds": [
+							101193265,
+							101193264,
+							101193267,
+							101193266,
+							101193252,
+							101193268,
+							101193253
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101193253"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101193252"
+						}
+					},
+					{
+						"id": 200408799,
+						"identifier": "Minivan",
+						"name": "Odyssey Minivan",
+						"ruleType": "body",
+						"styleIds": [
+							100952864,
+							100952865,
+							100952866,
+							100952863,
+							100952862,
+							100952861,
+							100952860
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100952865"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100952860"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Accord_Crosstour",
+			"name": "Accord Crosstour",
+			"niceName": "accordcrosstour",
+			"modelLinkCode": "M100039",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/accordcrosstour/2010",
+					"id": "100527329",
+					"year": "2010"
+				},
+				{
+					"link": "/api/vehicle/honda/accordcrosstour/2011",
+					"id": "100533989",
+					"year": "2011"
+				}
+			],
+			"attributeGroups": {
+				"RELIABILITY_RATINGS": {
+					"id": -100,
+					"name": "RELIABILITY_RATINGS",
+					"attributes": {
+						"POWERTRAIN_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "POWERTRAIN_QUALITY_MECHANICAL",
+							"value": "5.0"
+						},
+						"OVERALL_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "OVERALL_QUALITY_DESIGN",
+							"value": "5.0"
+						},
+						"OVERALL_QUALITY": {
+							"id": 0,
+							"name": "OVERALL_QUALITY",
+							"value": "5.0"
+						},
+						"OVERALL_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "OVERALL_QUALITY_MECHANICAL",
+							"value": "5.0"
+						},
+						"POWERTRAIN_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "POWERTRAIN_QUALITY_DESIGN",
+							"value": "4.0"
+						},
+						"FEATURES_AND_ACCESS_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "FEATURES_AND_ACCESS_QUALITY_DESIGN",
+							"value": "4.0"
+						},
+						"BODY_AND_INTERIOR_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "BODY_AND_INTERIOR_QUALITY_MECHANICAL",
+							"value": "4.0"
+						},
+						"FEATURES_AND_ACCESS_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "FEATURES_AND_ACCESS_QUALITY_MECHANICAL",
+							"value": "5.0"
+						},
+						"BODY_AND_INTERIOR_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "BODY_AND_INTERIOR_QUALITY_DESIGN",
+							"value": "5.0"
+						}
+					}
+				},
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"NAME": {
+							"id": 1,
+							"name": "NAME",
+							"value": "Accord Crosstour"
+						},
+						"USE_IN_NEW": {
+							"id": 10,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"YEAR": {
+							"id": 2,
+							"name": "YEAR",
+							"value": "2011"
+						},
+						"WORKFLOWSTATUS": {
+							"id": 9223372036854776000,
+							"name": "WORKFLOWSTATUS",
+							"value": "Published"
+						},
+						"USE_IN_USED": {
+							"id": 11,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 12,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_FUTURE": {
+							"id": 595,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 20,
+							"name": "MODEL_LINK_CODE",
+							"value": "M100039"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 3,
+							"name": "ED_MODEL_ID",
+							"value": "100533989"
+						}
+					}
+				}
+			},
+			"categories": {
+				"Crossover": [
+					"Crossover"
+				],
+				"PRIMARY_BODY_TYPE": [
+					"Car"
+				],
+				"Vehicle Size": [
+					"Midsize"
+				],
+				"Vehicle Style": [
+					"4dr Hatchback"
+				],
+				"Vehicle Type": [
+					"Car"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"Crossover",
+					"Hatchback",
+					"N/A"
+				]
+			},
+			"publicationStates": [
+				"USED"
+			],
+			"subModels": {
+				"USED": [
+					{
+						"id": 200410329,
+						"identifier": "Hatchback",
+						"name": "Accord Crosstour Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							101373241,
+							101373240,
+							101373237,
+							101373239,
+							101373238
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101373241"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101373237"
+						}
+					},
+					{
+						"id": 200409408,
+						"identifier": "Hatchback",
+						"name": "Accord Crosstour Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							101187662,
+							101250182,
+							101250187,
+							101250189,
+							101250188
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101187662"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101187662"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Insight",
+			"name": "Insight",
+			"niceName": "insight",
+			"modelLinkCode": "M030282",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/insight/2012",
+					"id": "100538229",
+					"year": "2012"
+				},
+				{
+					"link": "/api/vehicle/honda/insight/2002",
+					"id": "100000405",
+					"year": "2002"
+				},
+				{
+					"link": "/api/vehicle/honda/insight/2001",
+					"id": "100000124",
+					"year": "2001"
+				},
+				{
+					"link": "/api/vehicle/honda/insight/2000",
+					"id": "430",
+					"year": "2000"
+				},
+				{
+					"link": "/api/vehicle/honda/insight/2006",
+					"id": "100506899",
+					"year": "2006"
+				},
+				{
+					"link": "/api/vehicle/honda/insight/2004",
+					"id": "100503593",
+					"year": "2004"
+				},
+				{
+					"link": "/api/vehicle/honda/insight/2010",
+					"id": "100523196",
+					"year": "2010"
+				},
+				{
+					"link": "/api/vehicle/honda/insight/2011",
+					"id": "100533869",
+					"year": "2011"
+				},
+				{
+					"link": "/api/vehicle/honda/insight/2005",
+					"id": "100505005",
+					"year": "2005"
+				},
+				{
+					"link": "/api/vehicle/honda/insight/2003",
+					"id": "100502804",
+					"year": "2003"
+				},
+				{
+					"link": "/api/vehicle/honda/insight/2013",
+					"id": "200437625",
+					"year": "2013"
+				}
+			],
+			"attributeGroups": {
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"USE_IN_NEW": {
+							"id": 10,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"NAME": {
+							"id": 1,
+							"name": "NAME",
+							"value": "Insight"
+						},
+						"YEAR": {
+							"id": 2,
+							"name": "YEAR",
+							"value": "2006"
+						},
+						"WORKFLOWSTATUS": {
+							"id": 9223372036854776000,
+							"name": "WORKFLOWSTATUS",
+							"value": "Published"
+						},
+						"USE_IN_FUTURE": {
+							"id": 595,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 12,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_USED": {
+							"id": 11,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 20,
+							"name": "MODEL_LINK_CODE",
+							"value": "M030282"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 3,
+							"name": "ED_MODEL_ID",
+							"value": "100506899"
+						}
+					}
+				}
+			},
+			"categories": {
+				"Vehicle Size": [
+					"Compact"
+				],
+				"PRIMARY_BODY_TYPE": [
+					"Car"
+				],
+				"Vehicle Style": [
+					"4dr Hatchback",
+					"2dr Hatchback"
+				],
+				"Vehicle Type": [
+					"Car"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"Hatchback",
+					"N/A",
+					"Hybrid"
+				]
+			},
+			"publicationStates": [
+				"NEW_USED",
+				"NEW",
+				"USED"
+			],
+			"subModels": {
+				"NEW": [
+					{
+						"id": 200437662,
+						"identifier": "Hatchback",
+						"name": "Insight Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							200437632,
+							200437630,
+							200437633,
+							200437631,
+							200437628,
+							200437629,
+							200437626,
+							200437627
+						],
+						"publicationStates": [
+							"NEW"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/200437626"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/200437626"
+						}
+					}
+				],
+				"USED": [
+					{
+						"id": 200407911,
+						"identifier": "Hatchback",
+						"name": "Insight Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							100655813,
+							100655812,
+							100655811
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100655813"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100655811"
+						}
+					},
+					{
+						"id": 200405922,
+						"identifier": "Hatchback",
+						"name": "Insight Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							100070024,
+							100070025,
+							100070026
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100070024"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100070026"
+						}
+					},
+					{
+						"id": 200407284,
+						"identifier": "Hatchback",
+						"name": "Insight Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							100454249,
+							100508625,
+							100454247
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100454247"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100454247"
+						}
+					},
+					{
+						"id": 200406326,
+						"identifier": "Hatchback",
+						"name": "Insight Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							100194869,
+							100194868,
+							100194867
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100194868"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100194867"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Hatchback",
+						"name": "Insight Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							12722
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/12722"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/12722"
+						}
+					},
+					{
+						"id": 200410321,
+						"identifier": "Hatchback",
+						"name": "Insight Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							101370504,
+							101370505,
+							101370503,
+							101370494
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101370494"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101370494"
+						}
+					},
+					{
+						"id": 200408521,
+						"identifier": "Hatchback",
+						"name": "Insight Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							101153492,
+							101119958,
+							101153447
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101153447"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101119958"
+						}
+					},
+					{
+						"id": 200406899,
+						"identifier": "Hatchback",
+						"name": "Insight Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							100339479,
+							100339481,
+							100339480
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100339480"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100339480"
+						}
+					},
+					{
+						"id": 200405610,
+						"identifier": "Hatchback",
+						"name": "Insight Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							100003471,
+							100001265,
+							100001264
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100001265"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100001264"
+						}
+					},
+					{
+						"id": 200410736,
+						"identifier": "Hatchback",
+						"name": "Insight Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							101413176,
+							101413238,
+							101413237,
+							101413220,
+							101413219,
+							101413174,
+							101413159,
+							101413175
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101413219"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101413174"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Accord",
+			"name": "Accord",
+			"niceName": "accord",
+			"modelLinkCode": "M030277",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/accord/2007",
+					"id": "100506193",
+					"year": "2007"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/1999",
+					"id": "984",
+					"year": "1999"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/2010",
+					"id": "100529149",
+					"year": "2010"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/2008",
+					"id": "100522687",
+					"year": "2008"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/2000",
+					"id": "1036",
+					"year": "2000"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/2001",
+					"id": "100000126",
+					"year": "2001"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/2004",
+					"id": "100503589",
+					"year": "2004"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/1998",
+					"id": "784",
+					"year": "1998"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/1991",
+					"id": "2141",
+					"year": "1991"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/2011",
+					"id": "100532409",
+					"year": "2011"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/1990",
+					"id": "2140",
+					"year": "1990"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/1994",
+					"id": "2143",
+					"year": "1994"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/1993",
+					"id": "2142",
+					"year": "1993"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/2013",
+					"id": "100537293",
+					"year": "2013"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/2009",
+					"id": "100520407",
+					"year": "2009"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/2012",
+					"id": "100537089",
+					"year": "2012"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/2002",
+					"id": "100000402",
+					"year": "2002"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/2005",
+					"id": "100504722",
+					"year": "2005"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/2003",
+					"id": "100502660",
+					"year": "2003"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/1996",
+					"id": "2144",
+					"year": "1996"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/1997",
+					"id": "2145",
+					"year": "1997"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/1992",
+					"id": "782",
+					"year": "1992"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/1995",
+					"id": "783",
+					"year": "1995"
+				},
+				{
+					"link": "/api/vehicle/honda/accord/2006",
+					"id": "100506726",
+					"year": "2006"
+				}
+			],
+			"attributeGroups": {
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"NAME": {
+							"id": 1,
+							"name": "NAME",
+							"value": "Accord"
+						},
+						"USE_IN_NEW": {
+							"id": 10,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"YEAR": {
+							"id": 2,
+							"name": "YEAR",
+							"value": "2004"
+						},
+						"WORKFLOWSTATUS": {
+							"id": 9223372036854776000,
+							"name": "WORKFLOWSTATUS",
+							"value": "Published"
+						},
+						"USE_IN_USED": {
+							"id": 11,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 12,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_FUTURE": {
+							"id": 595,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 20,
+							"name": "MODEL_LINK_CODE",
+							"value": "M030277"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 3,
+							"name": "ED_MODEL_ID",
+							"value": "100503589"
+						}
+					}
+				}
+			},
+			"categories": {
+				"PRIMARY_BODY_TYPE": [
+					"Car"
+				],
+				"Vehicle Size": [
+					"Midsize"
+				],
+				"Vehicle Style": [
+					"Sedan",
+					"Wagon",
+					"Coupe"
+				],
+				"Vehicle Type": [
+					"Car"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"N/A",
+					"Performance",
+					"Hybrid"
+				]
+			},
+			"publicationStates": [
+				"NEW_USED",
+				"NEW",
+				"USED"
+			],
+			"subModels": {
+				"NEW": [
+					{
+						"id": 200410640,
+						"identifier": "Coupe",
+						"name": "Accord Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							200434890,
+							200434888,
+							200434889,
+							200434886,
+							200434887,
+							200434885
+						],
+						"publicationStates": [
+							"NEW"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/200434885"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/200434889"
+						}
+					},
+					{
+						"id": 200410639,
+						"identifier": "Sedan",
+						"name": "Accord Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							200434856,
+							200434857,
+							101404684,
+							200434858,
+							200434854,
+							101418837,
+							200434855,
+							101418836
+						],
+						"publicationStates": [
+							"NEW"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101418836"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/200434859"
+						}
+					}
+				],
+				"USED": [
+					{
+						"id": 200405614,
+						"identifier": "Coupe",
+						"name": "Accord Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100001214,
+							100001226,
+							100001209,
+							100001208,
+							100001207,
+							100002024,
+							100001216,
+							100001217,
+							100001218,
+							100001219
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100001209"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100001219"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Wagon",
+						"name": "Accord Wagon",
+						"ruleType": "body",
+						"styleIds": [
+							3922,
+							3859
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/3922"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/3859"
+						}
+					},
+					{
+						"id": 200410080,
+						"identifier": "Coupe",
+						"name": "Accord Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							101356508,
+							101356506,
+							101356507,
+							101356504,
+							101356505,
+							101356502,
+							101356503,
+							101356500,
+							101356501,
+							101356499
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101356505"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101356499"
+						}
+					},
+					{
+						"id": 200407209,
+						"identifier": "Hybrid",
+						"name": "Accord Hybrid",
+						"ruleType": "fuel",
+						"styleIds": [
+							100497897,
+							100454104
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100454104"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100454104"
+						}
+					},
+					{
+						"id": 200407670,
+						"identifier": "Sedan",
+						"name": "Accord Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100782920,
+							100782923,
+							100782924,
+							100782925,
+							100814357,
+							100782852,
+							100782944,
+							100814253,
+							100782848,
+							100782849,
+							100782850,
+							100782851,
+							100782929,
+							100782928,
+							100782931,
+							100782900,
+							100782930,
+							100782899,
+							100782932,
+							100782896
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100782923"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100782848"
+						}
+					},
+					{
+						"id": 200407863,
+						"identifier": "Sedan",
+						"name": "Accord Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100668136,
+							100640385,
+							100640384,
+							100668139,
+							100640285,
+							100640404,
+							100640284,
+							100640405,
+							100640436,
+							100640287,
+							100640406,
+							100640286,
+							100640407,
+							100640401,
+							100640402,
+							100640403,
+							100640445,
+							100640408,
+							100640409
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100640385"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100640284"
+						}
+					},
+					{
+						"id": 200405613,
+						"identifier": "Sedan",
+						"name": "Accord Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100001215,
+							100001213,
+							100001212,
+							100001211,
+							100001210,
+							100001206,
+							100001205,
+							100001204,
+							100001203,
+							100001224,
+							100001225,
+							100001227,
+							100001228,
+							100001229,
+							100001220,
+							100001221,
+							100001222,
+							100001223
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100001210"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100001204"
+						}
+					},
+					{
+						"id": 200405915,
+						"identifier": "Sedan",
+						"name": "Accord Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100003212,
+							100003214,
+							100003215,
+							100003208,
+							100003209,
+							100003210,
+							100003211,
+							100003207,
+							100003200,
+							100003630,
+							100003202,
+							100003634,
+							100003190,
+							100003191,
+							100003189,
+							100003192,
+							100003198,
+							100003216,
+							100003199,
+							100003197
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100003215"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100003190"
+						}
+					},
+					{
+						"id": 200408458,
+						"identifier": "Coupe",
+						"name": "Accord Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100939065,
+							100939066,
+							100939067,
+							100939068,
+							100939069,
+							100939070,
+							100939071,
+							100939076,
+							100939075,
+							100939074,
+							100939073,
+							100939072
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100939071"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100939065"
+						}
+					},
+					{
+						"id": 200406892,
+						"identifier": "Coupe",
+						"name": "Accord Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100346461,
+							100346460,
+							100346463,
+							100346462,
+							100346459,
+							100346458,
+							100346474,
+							100346472,
+							100346473,
+							100346470,
+							100346471,
+							100346468,
+							100346469,
+							100346466,
+							100346467,
+							100346464,
+							100346465
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100346464"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100346460"
+						}
+					},
+					{
+						"id": 200408386,
+						"identifier": "Sedan",
+						"name": "Accord Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							101047632,
+							101047618,
+							101047619,
+							101047620,
+							101047621,
+							101047622,
+							101047623,
+							101047624,
+							101047625,
+							101047628,
+							101047629,
+							101047630,
+							101047631
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101047619"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101047618"
+						}
+					},
+					{
+						"id": 200405916,
+						"identifier": "Coupe",
+						"name": "Accord Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100003213,
+							100003632,
+							100003633,
+							100003204,
+							100003194,
+							100003205,
+							100003195,
+							100003206,
+							100003193,
+							100003201,
+							100003196,
+							100003203
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100003213"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100003204"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Coupe",
+						"name": "Accord Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							11985,
+							11991,
+							11988,
+							11989
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/11985"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/11985"
+						}
+					},
+					{
+						"id": 200408457,
+						"identifier": "Sedan",
+						"name": "Accord Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100939064,
+							100939056,
+							100939057,
+							100939058,
+							100939059,
+							100939060,
+							100939061,
+							100939062,
+							100939063,
+							100939053,
+							100939052,
+							100939055,
+							100939054
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100939063"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100939052"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Sedan",
+						"name": "Accord Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							11978,
+							11976,
+							11983,
+							11981,
+							11980
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/11976"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/11976"
+						}
+					},
+					{
+						"id": 200409597,
+						"identifier": "Sedan",
+						"name": "Accord Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							101201273,
+							101201272,
+							101201275,
+							101201274,
+							101201277,
+							101201276,
+							101201279,
+							101201278,
+							101201284,
+							101201283,
+							101201282,
+							101201281,
+							101201280
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101201279"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101201272"
+						}
+					},
+					{
+						"id": 200408387,
+						"identifier": "Coupe",
+						"name": "Accord Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							101047633,
+							101047635,
+							101047634,
+							101047637,
+							101047636,
+							101047639,
+							101047638,
+							101047641,
+							101047640,
+							101047643,
+							101047642,
+							101047644
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101047636"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101047633"
+						}
+					},
+					{
+						"id": 200407671,
+						"identifier": "Coupe",
+						"name": "Accord Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100782954,
+							100782955,
+							100782952,
+							100782953,
+							100782958,
+							100782959,
+							100782945,
+							100782948,
+							100782949,
+							100782962,
+							100782961,
+							100782960,
+							100782966
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100782949"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100782945"
+						}
+					},
+					{
+						"id": 200406127,
+						"identifier": "Sedan",
+						"name": "Accord Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100176445,
+							100176444,
+							100144777,
+							100144779,
+							100144778,
+							100144780,
+							100144769,
+							100144771,
+							100144770,
+							100144773,
+							100146093,
+							100144772,
+							100146092,
+							100144775,
+							100144774
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100176445"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100146092"
+						}
+					},
+					{
+						"id": 200410622,
+						"identifier": "Sedan",
+						"name": "Accord Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							101403699,
+							101403698,
+							101403697,
+							101403696,
+							101403690,
+							101403691,
+							101403689,
+							101403694,
+							101403695,
+							101403692,
+							101403693
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101403698"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101403689"
+						}
+					},
+					{
+						"id": 200410079,
+						"identifier": "Sedan",
+						"name": "Accord Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							101356495,
+							101356494,
+							101356474,
+							101356493,
+							101356492,
+							101356491,
+							101356428,
+							101356498,
+							101356496,
+							101356497,
+							101336908
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101356494"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101336908"
+						}
+					},
+					{
+						"id": 200407207,
+						"identifier": "Sedan",
+						"name": "Accord Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100452172,
+							100452083,
+							100519754,
+							100452171,
+							100519755,
+							100452170,
+							100519752,
+							100519753,
+							100452094,
+							100529939,
+							100497897,
+							100452122,
+							100452038,
+							100452039,
+							100452126,
+							100452125,
+							100452148,
+							100454104,
+							100452042,
+							100452043
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100452170"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100452039"
+						}
+					},
+					{
+						"id": 200407864,
+						"identifier": "Coupe",
+						"name": "Accord Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100645426,
+							100645427,
+							100645424,
+							100645425,
+							100645404,
+							100645405,
+							100645406,
+							100645407,
+							100645401,
+							100645402,
+							100645403,
+							100645409,
+							100645408
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100645425"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100645401"
+						}
+					},
+					{
+						"id": 200410623,
+						"identifier": "Coupe",
+						"name": "Accord Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							101403703,
+							101403702,
+							101403701,
+							101403700,
+							101403707,
+							101403706,
+							101403705,
+							101403704,
+							101403709,
+							101403708
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101403702"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101403700"
+						}
+					},
+					{
+						"id": 200407672,
+						"identifier": "Hybrid",
+						"name": "Accord Hybrid",
+						"ruleType": "fuel",
+						"styleIds": [
+							100814357,
+							100814253
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100814253"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100814253"
+						}
+					},
+					{
+						"id": 200406891,
+						"identifier": "Sedan",
+						"name": "Accord Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100336783,
+							100336782,
+							100336781,
+							100336780,
+							100336778,
+							100336777,
+							100336776,
+							100336775,
+							100336774,
+							100336773,
+							100336772,
+							100336771,
+							100336788,
+							100336789,
+							100336787,
+							100336784,
+							100336785
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100336782"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100336772"
+						}
+					},
+					{
+						"id": 200407208,
+						"identifier": "Coupe",
+						"name": "Accord Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100519758,
+							100519759,
+							100519756,
+							100519757,
+							100452197,
+							100532447,
+							100452196,
+							100452198,
+							100529940,
+							100529941,
+							100529942,
+							100452195,
+							100452194,
+							100452190,
+							100452186,
+							100452187,
+							100452182,
+							100452183,
+							100452181,
+							100452178,
+							100452177
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100452195"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100452177"
+						}
+					},
+					{
+						"id": 200409598,
+						"identifier": "Coupe",
+						"name": "Accord Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							101201295,
+							101201294,
+							101201293,
+							101201292,
+							101201291,
+							101201290,
+							101201289,
+							101201288,
+							101201287,
+							101201286,
+							101201285,
+							101201296
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101201294"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101201285"
+						}
+					},
+					{
+						"id": 200406128,
+						"identifier": "Coupe",
+						"name": "Accord Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100155688,
+							100146463,
+							100146522,
+							100158263,
+							100146527,
+							100146526,
+							100146525,
+							100177695,
+							100146502,
+							100177694,
+							100177693,
+							100146506,
+							100146507,
+							100146504,
+							100146505
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100155688"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100155688"
+						}
+					},
+					{
+						"id": 200407865,
+						"identifier": "Hybrid",
+						"name": "Accord Hybrid",
+						"ruleType": "fuel",
+						"styleIds": [
+							100668136,
+							100668139
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100668136"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100668136"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Prelude",
+			"name": "Prelude",
+			"niceName": "prelude",
+			"modelLinkCode": "M030285",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/prelude/2000",
+					"id": "425",
+					"year": "2000"
+				},
+				{
+					"link": "/api/vehicle/honda/prelude/1995",
+					"id": "791",
+					"year": "1995"
+				},
+				{
+					"link": "/api/vehicle/honda/prelude/2001",
+					"id": "100000122",
+					"year": "2001"
+				},
+				{
+					"link": "/api/vehicle/honda/prelude/1999",
+					"id": "3541",
+					"year": "1999"
+				},
+				{
+					"link": "/api/vehicle/honda/prelude/1997",
+					"id": "2175",
+					"year": "1997"
+				},
+				{
+					"link": "/api/vehicle/honda/prelude/1996",
+					"id": "2174",
+					"year": "1996"
+				},
+				{
+					"link": "/api/vehicle/honda/prelude/1994",
+					"id": "2173",
+					"year": "1994"
+				},
+				{
+					"link": "/api/vehicle/honda/prelude/1993",
+					"id": "2172",
+					"year": "1993"
+				},
+				{
+					"link": "/api/vehicle/honda/prelude/1992",
+					"id": "2171",
+					"year": "1992"
+				},
+				{
+					"link": "/api/vehicle/honda/prelude/1991",
+					"id": "2170",
+					"year": "1991"
+				},
+				{
+					"link": "/api/vehicle/honda/prelude/1990",
+					"id": "2169",
+					"year": "1990"
+				},
+				{
+					"link": "/api/vehicle/honda/prelude/1998",
+					"id": "792",
+					"year": "1998"
+				}
+			],
+			"attributeGroups": {
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"NAME": {
+							"id": 0,
+							"name": "NAME",
+							"value": "Prelude"
+						},
+						"USE_IN_NEW": {
+							"id": 0,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"YEAR": {
+							"id": 0,
+							"name": "YEAR",
+							"value": "1997"
+						},
+						"USE_IN_USED": {
+							"id": 0,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 0,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_FUTURE": {
+							"id": 0,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 0,
+							"name": "MODEL_LINK_CODE",
+							"value": "M030285"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 0,
+							"name": "ED_MODEL_ID",
+							"value": "2175"
+						}
+					}
+				}
+			},
+			"categories": {
+				"PRIMARY_BODY_TYPE": [
+					"Car"
+				],
+				"Vehicle Size": [
+					"Compact"
+				],
+				"Vehicle Style": [
+					"Coupe"
+				],
+				"Vehicle Type": [
+					"Car"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"Factory Tuner",
+					"N/A",
+					"Performance"
+				]
+			},
+			"publicationStates": [
+				"USED"
+			],
+			"subModels": {
+				"USED": [
+					{
+						"id": 0,
+						"identifier": "VTEC",
+						"name": "Prelude VTEC",
+						"ruleType": "tuner",
+						"styleIds": [
+							4102
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/4102"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/4102"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Si",
+						"name": "Prelude Si",
+						"ruleType": "tuner",
+						"styleIds": [
+							4100
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/4100"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/4100"
+						}
+					},
+					{
+						"id": 200405608,
+						"identifier": "Coupe",
+						"name": "Prelude Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100001279,
+							100001278,
+							100001277
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100001279"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100001278"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Type SH",
+						"name": "Prelude Type SH",
+						"ruleType": "tuner",
+						"styleIds": [
+							17852
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/17852"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/17852"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Si 4WS",
+						"name": "Prelude Si 4WS",
+						"ruleType": "tuner",
+						"styleIds": [
+							11552
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/11552"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/11552"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Coupe",
+						"name": "Prelude Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							17852,
+							17851
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/17851"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/17851"
+						}
+					},
+					{
+						"id": 200405607,
+						"identifier": "SH",
+						"name": "Prelude SH",
+						"ruleType": "tuner",
+						"styleIds": [
+							100001279
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100001279"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100001279"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Fit",
+			"name": "Fit",
+			"niceName": "fit",
+			"modelLinkCode": "M060006",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/fit/2008",
+					"id": "100524129",
+					"year": "2008"
+				},
+				{
+					"link": "/api/vehicle/honda/fit/2007",
+					"id": "100504587",
+					"year": "2007"
+				},
+				{
+					"link": "/api/vehicle/honda/fit/2010",
+					"id": "100529013",
+					"year": "2010"
+				},
+				{
+					"link": "/api/vehicle/honda/fit/2012",
+					"id": "100537109",
+					"year": "2012"
+				},
+				{
+					"link": "/api/vehicle/honda/fit/2009",
+					"id": "100525430",
+					"year": "2009"
+				},
+				{
+					"link": "/api/vehicle/honda/fit/2013",
+					"id": "100537292",
+					"year": "2013"
+				},
+				{
+					"link": "/api/vehicle/honda/fit/2011",
+					"id": "100533889",
+					"year": "2011"
+				}
+			],
+			"attributeGroups": {
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"USE_IN_NEW": {
+							"id": 10,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"NAME": {
+							"id": 1,
+							"name": "NAME",
+							"value": "Fit"
+						},
+						"YEAR": {
+							"id": 2,
+							"name": "YEAR",
+							"value": "2007"
+						},
+						"WORKFLOWSTATUS": {
+							"id": 9223372036854776000,
+							"name": "WORKFLOWSTATUS",
+							"value": "Published"
+						},
+						"USE_IN_FUTURE": {
+							"id": 595,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 12,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_USED": {
+							"id": 11,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 20,
+							"name": "MODEL_LINK_CODE",
+							"value": "M060006"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 3,
+							"name": "ED_MODEL_ID",
+							"value": "100504587"
+						}
+					}
+				}
+			},
+			"categories": {
+				"Vehicle Size": [
+					"Compact"
+				],
+				"PRIMARY_BODY_TYPE": [
+					"Car"
+				],
+				"Vehicle Style": [
+					"4dr Hatchback"
+				],
+				"Vehicle Type": [
+					"Car"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"Hatchback",
+					"N/A"
+				]
+			},
+			"publicationStates": [
+				"NEW_USED",
+				"NEW",
+				"USED"
+			],
+			"subModels": {
+				"NEW": [
+					{
+						"id": 200429075,
+						"identifier": "Hatchback",
+						"name": "Fit Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							200429043,
+							200429042,
+							200429045,
+							200429044,
+							200429046
+						],
+						"publicationStates": [
+							"NEW"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/200429043"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/200429042"
+						}
+					}
+				],
+				"USED": [
+					{
+						"id": 200409577,
+						"identifier": "Hatchback",
+						"name": "Fit Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							101200427,
+							101200430,
+							101200431,
+							101200428,
+							101200429
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101200429"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101200427"
+						}
+					},
+					{
+						"id": 200409010,
+						"identifier": "Hatchback",
+						"name": "Fit Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							101061260,
+							101061261,
+							101061262,
+							101061257,
+							101061258,
+							101061259
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101061261"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101061257"
+						}
+					},
+					{
+						"id": 200410624,
+						"identifier": "Hatchback",
+						"name": "Fit Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							101403466,
+							101403467,
+							101403464,
+							101403465,
+							101403468
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101403465"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101403464"
+						}
+					},
+					{
+						"id": 200410322,
+						"identifier": "Hatchback",
+						"name": "Fit Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							101370710,
+							101370711,
+							101370714,
+							101370712,
+							101370713
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101370710"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101370710"
+						}
+					},
+					{
+						"id": 200407180,
+						"identifier": "Hatchback",
+						"name": "Fit Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							100692874,
+							100692872,
+							100692873,
+							100692871
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100692873"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100692871"
+						}
+					},
+					{
+						"id": 200408749,
+						"identifier": "Hatchback",
+						"name": "Fit Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							100924410,
+							100924411,
+							100924408,
+							100924409
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100924408"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100924408"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Fit_EV",
+			"name": "Fit EV",
+			"niceName": "fitev",
+			"modelLinkCode": "M130007",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/fitev/2013",
+					"id": "100537309",
+					"year": "2013"
+				}
+			],
+			"attributeGroups": {
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"USE_IN_NEW": {
+							"id": 10,
+							"name": "USE_IN_NEW",
+							"value": "Y"
+						},
+						"NAME": {
+							"id": 1,
+							"name": "NAME",
+							"value": "Fit EV"
+						},
+						"YEAR": {
+							"id": 2,
+							"name": "YEAR",
+							"value": "2013"
+						},
+						"WORKFLOWSTATUS": {
+							"id": 9223372036854776000,
+							"name": "WORKFLOWSTATUS",
+							"value": "Completed"
+						},
+						"USE_IN_FUTURE": {
+							"id": 595,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 12,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_USED": {
+							"id": 11,
+							"name": "USE_IN_USED",
+							"value": "N"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 20,
+							"name": "MODEL_LINK_CODE",
+							"value": "M130007"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 3,
+							"name": "ED_MODEL_ID",
+							"value": "100537309"
+						}
+					}
+				}
+			},
+			"categories": {
+				"Vehicle Size": [
+					"Compact"
+				],
+				"PRIMARY_BODY_TYPE": [
+					"Car"
+				],
+				"Vehicle Style": [
+					"4dr Hatchback"
+				],
+				"Vehicle Type": [
+					"Car"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"Hatchback"
+				]
+			},
+			"publicationStates": [
+				"NEW"
+			],
+			"subModels": {
+				"NEW": [
+					{
+						"id": 200410642,
+						"identifier": "Hatchback",
+						"name": "Fit EV Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							101404662
+						],
+						"publicationStates": [
+							"NEW"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101404662"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101404662"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Civic_del_Sol",
+			"name": "Civic del Sol",
+			"niceName": "civicdelsol",
+			"modelLinkCode": "M030280",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/civicdelsol/1997",
+					"id": "3538",
+					"year": "1997"
+				},
+				{
+					"link": "/api/vehicle/honda/civicdelsol/1996",
+					"id": "2162",
+					"year": "1996"
+				},
+				{
+					"link": "/api/vehicle/honda/civicdelsol/1995",
+					"id": "2161",
+					"year": "1995"
+				},
+				{
+					"link": "/api/vehicle/honda/civicdelsol/1994",
+					"id": "2160",
+					"year": "1994"
+				},
+				{
+					"link": "/api/vehicle/honda/civicdelsol/1993",
+					"id": "2159",
+					"year": "1993"
+				}
+			],
+			"attributeGroups": {
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"USE_IN_NEW": {
+							"id": 0,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"NAME": {
+							"id": 0,
+							"name": "NAME",
+							"value": "Civic del Sol"
+						},
+						"YEAR": {
+							"id": 0,
+							"name": "YEAR",
+							"value": "1994"
+						},
+						"USE_IN_FUTURE": {
+							"id": 0,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 0,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_USED": {
+							"id": 0,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 0,
+							"name": "MODEL_LINK_CODE",
+							"value": "M030280"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 0,
+							"name": "ED_MODEL_ID",
+							"value": "2160"
+						}
+					}
+				}
+			},
+			"categories": {
+				"Vehicle Size": [
+					"Compact"
+				],
+				"PRIMARY_BODY_TYPE": [
+					"Car"
+				],
+				"Vehicle Style": [
+					"Coupe"
+				],
+				"Vehicle Type": [
+					"Car"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"N/A",
+					"Factory Tuner",
+					"Performance"
+				]
+			},
+			"publicationStates": [
+				"USED"
+			],
+			"subModels": {
+				"USED": [
+					{
+						"id": 0,
+						"identifier": "VTEC",
+						"name": "Civic del Sol VTEC",
+						"ruleType": "tuner",
+						"styleIds": [
+							130
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/130"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/130"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Coupe",
+						"name": "Civic del Sol Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							126,
+							130,
+							122
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/122"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/122"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Civic_CRX",
+			"name": "Civic CRX",
+			"niceName": "civiccrx",
+			"modelLinkCode": "M030279",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/civiccrx/1991",
+					"id": "2158",
+					"year": "1991"
+				},
+				{
+					"link": "/api/vehicle/honda/civiccrx/1990",
+					"id": "2157",
+					"year": "1990"
+				}
+			],
+			"attributeGroups": {
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"NAME": {
+							"id": 0,
+							"name": "NAME",
+							"value": "Civic CRX"
+						},
+						"USE_IN_NEW": {
+							"id": 0,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"YEAR": {
+							"id": 0,
+							"name": "YEAR",
+							"value": "1990"
+						},
+						"USE_IN_USED": {
+							"id": 0,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 0,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_FUTURE": {
+							"id": 0,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 0,
+							"name": "MODEL_LINK_CODE",
+							"value": "M030279"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 0,
+							"name": "ED_MODEL_ID",
+							"value": "2157"
+						}
+					}
+				}
+			},
+			"categories": {
+				"PRIMARY_BODY_TYPE": [
+					"Car"
+				],
+				"Vehicle Size": [
+					"Compact"
+				],
+				"Vehicle Style": [
+					"2dr Hatchback"
+				],
+				"Vehicle Type": [
+					"Car"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"Hatchback",
+					"N/A"
+				]
+			},
+			"publicationStates": [
+				"USED"
+			],
+			"subModels": {
+				"USED": [
+					{
+						"id": 0,
+						"identifier": "Hatchback",
+						"name": "Civic CRX Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							3863,
+							3923,
+							3861
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/3861"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/3863"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_CR_V",
+			"name": "CR-V",
+			"niceName": "crv",
+			"modelLinkCode": "M030281",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/crv/2006",
+					"id": "100506803",
+					"year": "2006"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/2001",
+					"id": "100000120",
+					"year": "2001"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/2010",
+					"id": "100529529",
+					"year": "2010"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/2004",
+					"id": "100503591",
+					"year": "2004"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/2011",
+					"id": "100533329",
+					"year": "2011"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/2007",
+					"id": "100506641",
+					"year": "2007"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/2009",
+					"id": "100526231",
+					"year": "2009"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/2013",
+					"id": "100535794",
+					"year": "2013"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/2002",
+					"id": "100000403",
+					"year": "2002"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/2008",
+					"id": "100524189",
+					"year": "2008"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/2012",
+					"id": "100532093",
+					"year": "2012"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/1997",
+					"id": "2146",
+					"year": "1997"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/1998",
+					"id": "2147",
+					"year": "1998"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/1999",
+					"id": "3536",
+					"year": "1999"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/2003",
+					"id": "100502803",
+					"year": "2003"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/2005",
+					"id": "100505003",
+					"year": "2005"
+				},
+				{
+					"link": "/api/vehicle/honda/crv/2000",
+					"id": "422",
+					"year": "2000"
+				}
+			],
+			"attributeGroups": {
+				"RELIABILITY_RATINGS": {
+					"id": -100,
+					"name": "RELIABILITY_RATINGS",
+					"attributes": {
+						"OVERALL_QUALITY": {
+							"id": 0,
+							"name": "OVERALL_QUALITY",
+							"value": "5.0"
+						},
+						"OVERALL_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "OVERALL_QUALITY_DESIGN",
+							"value": "4.0"
+						},
+						"POWERTRAIN_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "POWERTRAIN_QUALITY_MECHANICAL",
+							"value": "5.0"
+						},
+						"FEATURES_AND_ACCESS_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "FEATURES_AND_ACCESS_QUALITY_DESIGN",
+							"value": "4.0"
+						},
+						"POWERTRAIN_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "POWERTRAIN_QUALITY_DESIGN",
+							"value": "4.0"
+						},
+						"OVERALL_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "OVERALL_QUALITY_MECHANICAL",
+							"value": "5.0"
+						},
+						"BODY_AND_INTERIOR_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "BODY_AND_INTERIOR_QUALITY_MECHANICAL",
+							"value": "5.0"
+						},
+						"FEATURES_AND_ACCESS_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "FEATURES_AND_ACCESS_QUALITY_MECHANICAL",
+							"value": "5.0"
+						},
+						"BODY_AND_INTERIOR_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "BODY_AND_INTERIOR_QUALITY_DESIGN",
+							"value": "4.0"
+						}
+					}
+				},
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"USE_IN_NEW": {
+							"id": 10,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"NAME": {
+							"id": 1,
+							"name": "NAME",
+							"value": "CR-V"
+						},
+						"YEAR": {
+							"id": 2,
+							"name": "YEAR",
+							"value": "2011"
+						},
+						"WORKFLOWSTATUS": {
+							"id": 9223372036854776000,
+							"name": "WORKFLOWSTATUS",
+							"value": "Published"
+						},
+						"USE_IN_FUTURE": {
+							"id": 595,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 12,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_USED": {
+							"id": 11,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 20,
+							"name": "MODEL_LINK_CODE",
+							"value": "M030281"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 3,
+							"name": "ED_MODEL_ID",
+							"value": "100533329"
+						}
+					}
+				}
+			},
+			"categories": {
+				"Crossover": [
+					"Crossover"
+				],
+				"Vehicle Size": [
+					"Midsize",
+					"Compact"
+				],
+				"PRIMARY_BODY_TYPE": [
+					"SUV"
+				],
+				"Vehicle Style": [
+					"4dr SUV"
+				],
+				"Vehicle Type": [
+					"SUV"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"Crossover",
+					"N/A"
+				]
+			},
+			"publicationStates": [
+				"NEW_USED",
+				"NEW",
+				"USED"
+			],
+			"subModels": {
+				"NEW": [
+					{
+						"id": 200436061,
+						"identifier": "SUV",
+						"name": "CR-V SUV",
+						"ruleType": "body",
+						"styleIds": [
+							200436015,
+							200436014,
+							200436013,
+							200436012,
+							200436011,
+							200436010,
+							200436009,
+							200436018,
+							200436016,
+							200436017
+						],
+						"publicationStates": [
+							"NEW"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/200436017"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/200436010"
+						}
+					}
+				],
+				"USED": [
+					{
+						"id": 200406897,
+						"identifier": "SUV",
+						"name": "CR-V SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100350440,
+							100350441,
+							100350442,
+							100350443,
+							100350444,
+							100350445,
+							100350446,
+							100350447
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100350442"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100350440"
+						}
+					},
+					{
+						"id": 200410240,
+						"identifier": "SUV",
+						"name": "CR-V SUV",
+						"ruleType": "body",
+						"styleIds": [
+							101358302,
+							101358303,
+							101358309,
+							101358308,
+							101358288,
+							101358307,
+							101358289,
+							101358306,
+							101358305,
+							101358304
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101358288"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101358288"
+						}
+					},
+					{
+						"id": 200407876,
+						"identifier": "SUV",
+						"name": "CR-V SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100698749,
+							100650233,
+							100650234,
+							100650235,
+							100650236,
+							100650237
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100650237"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100650233"
+						}
+					},
+					{
+						"id": 200409261,
+						"identifier": "SUV",
+						"name": "CR-V SUV",
+						"ruleType": "body",
+						"styleIds": [
+							101077145,
+							101077178,
+							101077144,
+							101077177,
+							101077146,
+							101077143,
+							101077142,
+							101077136
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101077178"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101077136"
+						}
+					},
+					{
+						"id": 200406325,
+						"identifier": "SUV",
+						"name": "CR-V SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100194915,
+							100194918,
+							100194919,
+							100194916,
+							100194917,
+							100194922,
+							100194920,
+							100194921
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100194922"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100194915"
+						}
+					},
+					{
+						"id": 200409649,
+						"identifier": "SUV",
+						"name": "CR-V SUV",
+						"ruleType": "body",
+						"styleIds": [
+							101209997,
+							101209999,
+							101209998,
+							101210004,
+							101210000,
+							101210001,
+							101210002,
+							101210003
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101210000"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101209997"
+						}
+					},
+					{
+						"id": 200407843,
+						"identifier": "SUV",
+						"name": "CR-V SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100808895,
+							100808894,
+							100808888,
+							100808898,
+							100808885,
+							100808884,
+							100808896,
+							100808881
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100808896"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100808881"
+						}
+					},
+					{
+						"id": 200410036,
+						"identifier": "SUV",
+						"name": "CR-V SUV",
+						"ruleType": "body",
+						"styleIds": [
+							101418830,
+							101418831,
+							101418828,
+							101418829,
+							101418795,
+							101418827,
+							101418799,
+							101418802,
+							101323927,
+							101418816
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101418799"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101323927"
+						}
+					},
+					{
+						"id": 200405605,
+						"identifier": "SUV",
+						"name": "CR-V SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100001258,
+							100001259,
+							100001262,
+							100001263,
+							100001260,
+							100001261
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100001260"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100001260"
+						}
+					},
+					{
+						"id": 200405917,
+						"identifier": "SUV",
+						"name": "CR-V SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100070268,
+							100070391,
+							100070264,
+							100070265,
+							100070266,
+							100070267,
+							100070393,
+							100070392
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100070391"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100070268"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "SUV",
+						"name": "CR-V SUV",
+						"ruleType": "body",
+						"styleIds": [
+							10225
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/10225"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/10225"
+						}
+					},
+					{
+						"id": 200407282,
+						"identifier": "SUV",
+						"name": "CR-V SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100474925,
+							100474926,
+							100474927,
+							100474929,
+							100474928
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100474927"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100474925"
+						}
+					},
+					{
+						"id": 200408769,
+						"identifier": "SUV",
+						"name": "CR-V SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100933619,
+							100933618,
+							100933623,
+							100933622,
+							100933621,
+							100933614,
+							100933615,
+							100933613
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100933618"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100933613"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Ridgeline",
+			"name": "Ridgeline",
+			"niceName": "ridgeline",
+			"modelLinkCode": "M060004",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/ridgeline/2008",
+					"id": "100523475",
+					"year": "2008"
+				},
+				{
+					"link": "/api/vehicle/honda/ridgeline/2013",
+					"id": "200440544",
+					"year": "2013"
+				},
+				{
+					"link": "/api/vehicle/honda/ridgeline/2012",
+					"id": "100538549",
+					"year": "2012"
+				},
+				{
+					"link": "/api/vehicle/honda/ridgeline/2011",
+					"id": "100532631",
+					"year": "2011"
+				},
+				{
+					"link": "/api/vehicle/honda/ridgeline/2007",
+					"id": "100516825",
+					"year": "2007"
+				},
+				{
+					"link": "/api/vehicle/honda/ridgeline/2009",
+					"id": "100525909",
+					"year": "2009"
+				},
+				{
+					"link": "/api/vehicle/honda/ridgeline/2006",
+					"id": "100503987",
+					"year": "2006"
+				},
+				{
+					"link": "/api/vehicle/honda/ridgeline/2010",
+					"id": "100529410",
+					"year": "2010"
+				}
+			],
+			"attributeGroups": {
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"USE_IN_NEW": {
+							"id": 10,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"NAME": {
+							"id": 1,
+							"name": "NAME",
+							"value": "Ridgeline"
+						},
+						"YEAR": {
+							"id": 2,
+							"name": "YEAR",
+							"value": "2008"
+						},
+						"WORKFLOWSTATUS": {
+							"id": 9223372036854776000,
+							"name": "WORKFLOWSTATUS",
+							"value": "Published"
+						},
+						"USE_IN_FUTURE": {
+							"id": 595,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 12,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_USED": {
+							"id": 11,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 20,
+							"name": "MODEL_LINK_CODE",
+							"value": "M060004"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 3,
+							"name": "ED_MODEL_ID",
+							"value": "100523475"
+						}
+					}
+				}
+			},
+			"categories": {
+				"Vehicle Size": [
+					"Large"
+				],
+				"PRIMARY_BODY_TYPE": [
+					"Truck"
+				],
+				"Vehicle Style": [
+					"Crew Cab Pickup"
+				],
+				"Vehicle Type": [
+					"Truck"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"N/A"
+				]
+			},
+			"publicationStates": [
+				"NEW_USED",
+				"NEW",
+				"USED"
+			],
+			"subModels": {
+				"NEW": [
+					{
+						"id": 200440638,
+						"identifier": "Crew Cab",
+						"name": "Ridgeline Crew Cab",
+						"ruleType": "body",
+						"styleIds": [
+							200440549,
+							200440548,
+							200440545,
+							200440547,
+							200440546
+						],
+						"publicationStates": [
+							"NEW"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/200440545"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/200440545"
+						}
+					}
+				],
+				"USED": [
+					{
+						"id": 200416385,
+						"identifier": "Crew Cab",
+						"name": "Ridgeline Crew Cab",
+						"ruleType": "body",
+						"styleIds": [
+							101206493,
+							101206492,
+							101206494,
+							101206491
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101206494"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101206491"
+						}
+					},
+					{
+						"id": 200416590,
+						"identifier": "Crew Cab",
+						"name": "Ridgeline Crew Cab",
+						"ruleType": "body",
+						"styleIds": [
+							101415742,
+							101415736,
+							101415761,
+							101415731,
+							101415714
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101415742"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101415714"
+						}
+					},
+					{
+						"id": 200416367,
+						"identifier": "Crew Cab",
+						"name": "Ridgeline Crew Cab",
+						"ruleType": "body",
+						"styleIds": [
+							100890755,
+							100890754,
+							100890758,
+							100890757,
+							100890756
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100890754"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100890754"
+						}
+					},
+					{
+						"id": 200416574,
+						"identifier": "Crew Cab",
+						"name": "Ridgeline Crew Cab",
+						"ruleType": "body",
+						"styleIds": [
+							100513004,
+							100513005,
+							100513006,
+							100513007,
+							100513003
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100513004"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100513003"
+						}
+					},
+					{
+						"id": 200416584,
+						"identifier": "Crew Cab",
+						"name": "Ridgeline Crew Cab",
+						"ruleType": "body",
+						"styleIds": [
+							101344305,
+							101344306,
+							101344307,
+							101344308
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101344307"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101344305"
+						}
+					},
+					{
+						"id": 200416376,
+						"identifier": "Crew Cab",
+						"name": "Ridgeline Crew Cab",
+						"ruleType": "body",
+						"styleIds": [
+							101051988,
+							101052576,
+							101052574,
+							101052575
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101051988"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101051988"
+						}
+					},
+					{
+						"id": 200416360,
+						"identifier": "Crew Cab",
+						"name": "Ridgeline Crew Cab",
+						"ruleType": "body",
+						"styleIds": [
+							100756781,
+							100756780,
+							100756783,
+							100756782,
+							100756784
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100756784"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100756780"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Accord_Plug_In_Hybrid",
+			"name": "Accord Plug-In Hybrid",
+			"niceName": "accordpluginhybrid",
+			"modelLinkCode": "M140011",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/accordpluginhybrid/2014",
+					"id": "200434262",
+					"year": "2014"
+				}
+			],
+			"attributeGroups": {
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"USE_IN_NEW": {
+							"id": 10,
+							"name": "USE_IN_NEW",
+							"value": "Y"
+						},
+						"NAME": {
+							"id": 1,
+							"name": "NAME",
+							"value": "Accord Plug-In Hybrid"
+						},
+						"YEAR": {
+							"id": 2,
+							"name": "YEAR",
+							"value": "2014"
+						},
+						"WORKFLOWSTATUS": {
+							"id": 9223372036854776000,
+							"name": "WORKFLOWSTATUS",
+							"value": "Completed"
+						},
+						"USE_IN_FUTURE": {
+							"id": 595,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 12,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_USED": {
+							"id": 11,
+							"name": "USE_IN_USED",
+							"value": "N"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 20,
+							"name": "MODEL_LINK_CODE",
+							"value": "M140011"
+						}
+					}
+				}
+			},
+			"categories": {
+				"PRIMARY_BODY_TYPE": [
+					"Car"
+				],
+				"Vehicle Style": [
+					"Sedan"
+				],
+				"Vehicle Type": [
+					"Car"
+				]
+			},
+			"publicationStates": [
+				"NEW"
+			],
+			"subModels": {
+				"NEW": [
+					{
+						"id": 200459883,
+						"identifier": "Sedan",
+						"name": "Accord Plug-In Hybrid Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							200434263
+						],
+						"publicationStates": [
+							"NEW"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/200434263"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/200434263"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_CR_Z",
+			"name": "CR-Z",
+			"niceName": "crz",
+			"modelLinkCode": "M110063",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/crz/2011",
+					"id": "100529589",
+					"year": "2011"
+				},
+				{
+					"link": "/api/vehicle/honda/crz/2012",
+					"id": "100538149",
+					"year": "2012"
+				},
+				{
+					"link": "/api/vehicle/honda/crz/2013",
+					"id": "200443500",
+					"year": "2013"
+				}
+			],
+			"attributeGroups": {
+				"RELIABILITY_RATINGS": {
+					"id": -100,
+					"name": "RELIABILITY_RATINGS",
+					"attributes": {
+						"POWERTRAIN_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "POWERTRAIN_QUALITY_MECHANICAL",
+							"value": "4.0"
+						},
+						"OVERALL_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "OVERALL_QUALITY_DESIGN",
+							"value": "4.0"
+						},
+						"OVERALL_QUALITY": {
+							"id": 0,
+							"name": "OVERALL_QUALITY",
+							"value": "4.0"
+						},
+						"OVERALL_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "OVERALL_QUALITY_MECHANICAL",
+							"value": "3.0"
+						},
+						"POWERTRAIN_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "POWERTRAIN_QUALITY_DESIGN",
+							"value": "4.0"
+						},
+						"FEATURES_AND_ACCESS_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "FEATURES_AND_ACCESS_QUALITY_DESIGN",
+							"value": "4.0"
+						},
+						"BODY_AND_INTERIOR_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "BODY_AND_INTERIOR_QUALITY_MECHANICAL",
+							"value": "3.0"
+						},
+						"FEATURES_AND_ACCESS_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "FEATURES_AND_ACCESS_QUALITY_MECHANICAL",
+							"value": "3.0"
+						},
+						"BODY_AND_INTERIOR_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "BODY_AND_INTERIOR_QUALITY_DESIGN",
+							"value": "3.0"
+						}
+					}
+				},
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"NAME": {
+							"id": 1,
+							"name": "NAME",
+							"value": "CR-Z"
+						},
+						"USE_IN_NEW": {
+							"id": 10,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"YEAR": {
+							"id": 2,
+							"name": "YEAR",
+							"value": "2011"
+						},
+						"WORKFLOWSTATUS": {
+							"id": 9223372036854776000,
+							"name": "WORKFLOWSTATUS",
+							"value": "Published"
+						},
+						"USE_IN_USED": {
+							"id": 11,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 12,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_FUTURE": {
+							"id": 595,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 20,
+							"name": "MODEL_LINK_CODE",
+							"value": "M110063"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 3,
+							"name": "ED_MODEL_ID",
+							"value": "100529589"
+						}
+					}
+				}
+			},
+			"categories": {
+				"PRIMARY_BODY_TYPE": [
+					"Car"
+				],
+				"Vehicle Size": [
+					"Compact"
+				],
+				"Vehicle Style": [
+					"2dr Hatchback"
+				],
+				"Vehicle Type": [
+					"Car"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"Hatchback",
+					"N/A",
+					"Hybrid"
+				]
+			},
+			"publicationStates": [
+				"NEW_USED",
+				"NEW",
+				"USED"
+			],
+			"subModels": {
+				"NEW_USED": [
+					{
+						"id": 200410728,
+						"identifier": "Hatchback",
+						"name": "CR-Z Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							101412646,
+							101412647,
+							101412644,
+							101412645,
+							101412648,
+							101412649
+						],
+						"publicationStates": [
+							"NEW_USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101412644"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101412644"
+						}
+					}
+				],
+				"NEW": [
+					{
+						"id": 200443530,
+						"identifier": "Hatchback",
+						"name": "CR-Z Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							200443503,
+							200443502,
+							200443501,
+							200443506,
+							200443504,
+							200443505
+						],
+						"publicationStates": [
+							"NEW"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/200443501"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/200443506"
+						}
+					}
+				],
+				"USED": [
+					{
+						"id": 200409677,
+						"identifier": "Hatchback",
+						"name": "CR-Z Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							101336201,
+							101336183,
+							101336202,
+							101336204,
+							101336205,
+							101213144
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101336204"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101213144"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Crosstour",
+			"name": "Crosstour",
+			"niceName": "crosstour",
+			"modelLinkCode": "M100039",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/crosstour/2012",
+					"id": "100536772",
+					"year": "2012"
+				},
+				{
+					"link": "/api/vehicle/honda/crosstour/2013",
+					"id": "200433234",
+					"year": "2013"
+				}
+			],
+			"attributeGroups": {
+				"RELIABILITY_RATINGS": {
+					"id": -100,
+					"name": "RELIABILITY_RATINGS",
+					"attributes": {
+						"POWERTRAIN_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "POWERTRAIN_QUALITY_MECHANICAL",
+							"value": "3.0"
+						},
+						"OVERALL_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "OVERALL_QUALITY_DESIGN",
+							"value": "4.0"
+						},
+						"OVERALL_QUALITY": {
+							"id": 0,
+							"name": "OVERALL_QUALITY",
+							"value": "5.0"
+						},
+						"OVERALL_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "OVERALL_QUALITY_MECHANICAL",
+							"value": "5.0"
+						},
+						"POWERTRAIN_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "POWERTRAIN_QUALITY_DESIGN",
+							"value": "3.0"
+						},
+						"FEATURES_AND_ACCESS_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "FEATURES_AND_ACCESS_QUALITY_DESIGN",
+							"value": "4.0"
+						},
+						"BODY_AND_INTERIOR_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "BODY_AND_INTERIOR_QUALITY_MECHANICAL",
+							"value": "5.0"
+						},
+						"FEATURES_AND_ACCESS_QUALITY_MECHANICAL": {
+							"id": 0,
+							"name": "FEATURES_AND_ACCESS_QUALITY_MECHANICAL",
+							"value": "5.0"
+						},
+						"BODY_AND_INTERIOR_QUALITY_DESIGN": {
+							"id": 0,
+							"name": "BODY_AND_INTERIOR_QUALITY_DESIGN",
+							"value": "3.0"
+						}
+					}
+				},
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"NAME": {
+							"id": 1,
+							"name": "NAME",
+							"value": "Crosstour"
+						},
+						"USE_IN_NEW": {
+							"id": 10,
+							"name": "USE_IN_NEW",
+							"value": "Y"
+						},
+						"YEAR": {
+							"id": 2,
+							"name": "YEAR",
+							"value": "2012"
+						},
+						"WORKFLOWSTATUS": {
+							"id": 9223372036854776000,
+							"name": "WORKFLOWSTATUS",
+							"value": "Completed"
+						},
+						"USE_IN_USED": {
+							"id": 11,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 12,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_FUTURE": {
+							"id": 595,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 20,
+							"name": "MODEL_LINK_CODE",
+							"value": "M100039"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 3,
+							"name": "ED_MODEL_ID",
+							"value": "100536772"
+						}
+					}
+				}
+			},
+			"categories": {
+				"Crossover": [
+					"Crossover"
+				],
+				"PRIMARY_BODY_TYPE": [
+					"Car"
+				],
+				"Vehicle Size": [
+					"Midsize"
+				],
+				"Vehicle Style": [
+					"4dr Hatchback"
+				],
+				"Vehicle Type": [
+					"Car"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"Crossover",
+					"Hatchback"
+				]
+			},
+			"publicationStates": [
+				"NEW_USED",
+				"NEW"
+			],
+			"subModels": {
+				"NEW_USED": [
+					{
+						"id": 200410602,
+						"identifier": "Hatchback",
+						"name": "Crosstour Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							101401639,
+							101401642,
+							101401643,
+							101401640,
+							101401641,
+							101420804,
+							101420805,
+							101420793
+						],
+						"publicationStates": [
+							"NEW_USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101420793"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101420793"
+						}
+					}
+				],
+				"NEW": [
+					{
+						"id": 200443404,
+						"identifier": "Hatchback",
+						"name": "Crosstour Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							200433237,
+							200433236,
+							200433239,
+							200433238,
+							200433241,
+							200433240,
+							200433243,
+							200433242
+						],
+						"publicationStates": [
+							"NEW"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/200433236"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/200433240"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Civic",
+			"name": "Civic",
+			"niceName": "civic",
+			"modelLinkCode": "M030278",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/civic/2006",
+					"id": "100505525",
+					"year": "2006"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/2008",
+					"id": "100524174",
+					"year": "2008"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/2010",
+					"id": "100529531",
+					"year": "2010"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/2013",
+					"id": "200442557",
+					"year": "2013"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/2007",
+					"id": "100507585",
+					"year": "2007"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/1992",
+					"id": "786",
+					"year": "1992"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/2000",
+					"id": "1037",
+					"year": "2000"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/2004",
+					"id": "100503590",
+					"year": "2004"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/2001",
+					"id": "100000125",
+					"year": "2001"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/2003",
+					"id": "100502614",
+					"year": "2003"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/2011",
+					"id": "100533309",
+					"year": "2011"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/1993",
+					"id": "2150",
+					"year": "1993"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/1994",
+					"id": "2151",
+					"year": "1994"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/2009",
+					"id": "100526054",
+					"year": "2009"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/1990",
+					"id": "2148",
+					"year": "1990"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/1991",
+					"id": "2149",
+					"year": "1991"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/2012",
+					"id": "100529573",
+					"year": "2012"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/1999",
+					"id": "3537",
+					"year": "1999"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/2002",
+					"id": "100000404",
+					"year": "2002"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/2005",
+					"id": "100505002",
+					"year": "2005"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/1997",
+					"id": "2154",
+					"year": "1997"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/1998",
+					"id": "2155",
+					"year": "1998"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/1995",
+					"id": "2152",
+					"year": "1995"
+				},
+				{
+					"link": "/api/vehicle/honda/civic/1996",
+					"id": "2153",
+					"year": "1996"
+				}
+			],
+			"attributeGroups": {
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"USE_IN_NEW": {
+							"id": 0,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"NAME": {
+							"id": 0,
+							"name": "NAME",
+							"value": "Civic"
+						},
+						"YEAR": {
+							"id": 0,
+							"name": "YEAR",
+							"value": "1997"
+						},
+						"USE_IN_FUTURE": {
+							"id": 0,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 0,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_USED": {
+							"id": 0,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 0,
+							"name": "MODEL_LINK_CODE",
+							"value": "M030278"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 0,
+							"name": "ED_MODEL_ID",
+							"value": "2154"
+						}
+					}
+				}
+			},
+			"categories": {
+				"Vehicle Size": [
+					"Compact"
+				],
+				"PRIMARY_BODY_TYPE": [
+					"Car"
+				],
+				"Vehicle Style": [
+					"Sedan",
+					"Wagon",
+					"2dr Hatchback",
+					"Coupe"
+				],
+				"Vehicle Type": [
+					"Car"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"Hatchback",
+					"Factory Tuner",
+					"N/A",
+					"Performance",
+					"Hybrid"
+				]
+			},
+			"publicationStates": [
+				"NEW_USED",
+				"NEW",
+				"USED"
+			],
+			"subModels": {
+				"NEW_USED": [
+					{
+						"id": 200409668,
+						"identifier": "Sedan",
+						"name": "Civic Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							101384848,
+							101384849,
+							101384851,
+							101213143,
+							101384852,
+							101384853,
+							101384854,
+							101384855,
+							101384856,
+							101384857,
+							101384858,
+							101384859,
+							101384860,
+							101384861,
+							101384874,
+							101384847
+						],
+						"publicationStates": [
+							"NEW_USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101213143"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101213143"
+						}
+					},
+					{
+						"id": 200409665,
+						"identifier": "Coupe",
+						"name": "Civic Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							101384830,
+							101384829,
+							101384828,
+							101384827,
+							101384826,
+							101384825,
+							101384824,
+							101384823,
+							101384822,
+							101319404,
+							101384821,
+							101384820,
+							101384879
+						],
+						"publicationStates": [
+							"NEW_USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101319404"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101319404"
+						}
+					},
+					{
+						"id": 200409667,
+						"identifier": "Si",
+						"name": "Civic Si",
+						"ruleType": "tuner",
+						"styleIds": [
+							101384830,
+							101384829,
+							101384828,
+							101384855,
+							101384856,
+							101384857,
+							101384879
+						],
+						"publicationStates": [
+							"NEW_USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101384828"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101384855"
+						}
+					},
+					{
+						"id": 200409669,
+						"identifier": "Hybrid",
+						"name": "Civic Hybrid",
+						"ruleType": "fuel",
+						"styleIds": [
+							101384858,
+							101384859,
+							101384860,
+							101384861
+						],
+						"publicationStates": [
+							"NEW_USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101384858"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101384858"
+						}
+					}
+				],
+				"NEW": [
+					{
+						"id": 200443863,
+						"identifier": "Coupe",
+						"name": "Civic Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							200443846,
+							200443847,
+							200443845,
+							200443850,
+							200443851,
+							200443848,
+							200443849,
+							200443854,
+							200443855,
+							200443852,
+							200443853,
+							200443856
+						],
+						"publicationStates": [
+							"NEW"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/200443846"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/200443845"
+						}
+					},
+					{
+						"id": 200442575,
+						"identifier": "Sedan",
+						"name": "Civic Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							200443454,
+							200442558,
+							200443455,
+							200443452,
+							200443453,
+							200443450,
+							200443451,
+							200443448,
+							200443449,
+							200443446,
+							200443447
+						],
+						"publicationStates": [
+							"NEW"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/200442558"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/200443449"
+						}
+					}
+				],
+				"USED": [
+					{
+						"id": 200407479,
+						"identifier": "Hybrid",
+						"name": "Civic Hybrid",
+						"ruleType": "fuel",
+						"styleIds": [
+							100660627,
+							100660632
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100660632"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100660627"
+						}
+					},
+					{
+						"id": 200407278,
+						"identifier": "Coupe",
+						"name": "Civic Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100468262,
+							100468263,
+							100526192,
+							100468261,
+							100468597,
+							100468529,
+							100468508,
+							100467402,
+							100467372,
+							100468574,
+							100468627,
+							100467370,
+							100468536,
+							100467369,
+							100468539,
+							100468538,
+							100468513,
+							100468558,
+							100526189,
+							100468251
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100468529"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100467370"
+						}
+					},
+					{
+						"id": 200407991,
+						"identifier": "Coupe",
+						"name": "Civic Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100804549,
+							100804548,
+							100804551,
+							100804550,
+							100809858,
+							100809856,
+							100804547,
+							100809855,
+							100809857,
+							100804546,
+							100804553,
+							100804552
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100804552"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100804546"
+						}
+					},
+					{
+						"id": 200408762,
+						"identifier": "Si",
+						"name": "Civic Si",
+						"ruleType": "tuner",
+						"styleIds": [
+							100939792,
+							100943565,
+							100943564,
+							100943563,
+							100939789,
+							100943562,
+							100939791,
+							100939790
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100943565"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100943562"
+						}
+					},
+					{
+						"id": 200410234,
+						"identifier": "Coupe",
+						"name": "Civic Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							101357803,
+							101357802,
+							101357807,
+							101357806,
+							101357805,
+							101357804,
+							101357810,
+							101357795,
+							101357811,
+							101357808,
+							101357809,
+							101357796
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101357795"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101357795"
+						}
+					},
+					{
+						"id": 200406893,
+						"identifier": "Hatchback",
+						"name": "Civic Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							100374218,
+							100374219
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100374218"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100374219"
+						}
+					},
+					{
+						"id": 200405921,
+						"identifier": "Sedan",
+						"name": "Civic Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100003247,
+							100003238,
+							100003236,
+							100003237,
+							100003235,
+							100003229,
+							100003228,
+							100003230,
+							100075133,
+							100075134,
+							100003227,
+							100003250,
+							100003249,
+							100003248
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100003247"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100003228"
+						}
+					},
+					{
+						"id": 200409235,
+						"identifier": "Hybrid",
+						"name": "Civic Hybrid",
+						"ruleType": "fuel",
+						"styleIds": [
+							101061158,
+							101061157,
+							101061166,
+							101061181
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101061158"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101061157"
+						}
+					},
+					{
+						"id": 200407280,
+						"identifier": "Sedan",
+						"name": "Civic Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100474723,
+							100469779,
+							100469781,
+							100469780,
+							100469783,
+							100469782,
+							100526200,
+							100469791,
+							100469790,
+							100469792,
+							100474709,
+							100513439,
+							100469768,
+							100469769,
+							100513438,
+							100519762,
+							100469590,
+							100526209,
+							100519761,
+							100469656
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100469780"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100469590"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Coupe",
+						"name": "Civic Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							3254,
+							3255,
+							3253,
+							3256
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/3253"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/3253"
+						}
+					},
+					{
+						"id": 200408763,
+						"identifier": "Sedan",
+						"name": "Civic Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100933865,
+							100943567,
+							100943566,
+							100933862,
+							100943565,
+							100943564,
+							100943563,
+							100943562,
+							100933857,
+							100933816,
+							100933810,
+							100954988,
+							100933811,
+							100933808,
+							100933809,
+							100933814,
+							100933815,
+							100933812,
+							100933813
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100933808"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100933808"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Hatchback",
+						"name": "Civic Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							3900,
+							3912,
+							3898,
+							3911
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/3900"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/3900"
+						}
+					},
+					{
+						"id": 200409657,
+						"identifier": "Hybrid",
+						"name": "Civic Hybrid",
+						"ruleType": "fuel",
+						"styleIds": [
+							101209958,
+							101209959,
+							101209960,
+							101209961
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101209961"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101209958"
+						}
+					},
+					{
+						"id": 200405918,
+						"identifier": "Hatchback",
+						"name": "Civic Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							100075514,
+							100075027
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100075514"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100075027"
+						}
+					},
+					{
+						"id": 200410235,
+						"identifier": "Natural Gas",
+						"name": "Civic Natural Gas",
+						"ruleType": "fuel",
+						"styleIds": [
+							101358563
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101358563"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101358563"
+						}
+					},
+					{
+						"id": 200406896,
+						"identifier": "Hybrid",
+						"name": "Civic Hybrid",
+						"ruleType": "fuel",
+						"styleIds": [
+							100344093,
+							100344092
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100344093"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100344092"
+						}
+					},
+					{
+						"id": 200409233,
+						"identifier": "Si",
+						"name": "Civic Si",
+						"ruleType": "tuner",
+						"styleIds": [
+							101061070,
+							101061071,
+							101061156,
+							101061069,
+							101061155,
+							101061154,
+							101061153,
+							101061072
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101061154"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101061153"
+						}
+					},
+					{
+						"id": 200406104,
+						"identifier": "Natural Gas",
+						"name": "Civic Natural Gas",
+						"ruleType": "fuel",
+						"styleIds": [
+							100195842,
+							100195843
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100195843"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100195842"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Si",
+						"name": "Civic Si",
+						"ruleType": "tuner",
+						"styleIds": [
+							3256
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/3256"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/3256"
+						}
+					},
+					{
+						"id": 200406895,
+						"identifier": "Sedan",
+						"name": "Civic Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100344093,
+							100344092,
+							100344074,
+							100344075,
+							100344072,
+							100344073,
+							100344070,
+							100344071,
+							100344068,
+							100344069,
+							100344066,
+							100344067,
+							100344064,
+							100344065
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100344064"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100344064"
+						}
+					},
+					{
+						"id": 200408760,
+						"identifier": "Coupe",
+						"name": "Civic Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100939792,
+							100933807,
+							100933806,
+							100933805,
+							100933804,
+							100933776,
+							100933777,
+							100933778,
+							100933779,
+							100933780,
+							100939789,
+							100933781,
+							100939791,
+							100933782,
+							100939790,
+							100933783
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100933806"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100933776"
+						}
+					},
+					{
+						"id": 200407993,
+						"identifier": "Si",
+						"name": "Civic Si",
+						"ruleType": "tuner",
+						"styleIds": [
+							100822978,
+							100809858,
+							100809856,
+							100822999,
+							100809857,
+							100809855,
+							100822959,
+							100822958
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100822978"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100809856"
+						}
+					},
+					{
+						"id": 200410237,
+						"identifier": "Sedan",
+						"name": "Civic Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							101357838,
+							101357839,
+							101357836,
+							101357837,
+							101357834,
+							101357835,
+							101358563,
+							101357832,
+							101357833,
+							101357847,
+							101357846,
+							101357845,
+							101357844,
+							101357843,
+							101357842,
+							101357841,
+							101357840,
+							101357851,
+							101357850,
+							101357849,
+							101357848
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101357832"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101357832"
+						}
+					},
+					{
+						"id": 200407277,
+						"identifier": "Hatchback",
+						"name": "Civic Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							100474733,
+							100474734
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100474733"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100474733"
+						}
+					},
+					{
+						"id": 200407281,
+						"identifier": "Hybrid",
+						"name": "Civic Hybrid",
+						"ruleType": "fuel",
+						"styleIds": [
+							100474723,
+							100474709
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100474709"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100474709"
+						}
+					},
+					{
+						"id": 200407995,
+						"identifier": "Hybrid",
+						"name": "Civic Hybrid",
+						"ruleType": "fuel",
+						"styleIds": [
+							100825607,
+							100825608
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100825608"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100825607"
+						}
+					},
+					{
+						"id": 200407478,
+						"identifier": "Sedan",
+						"name": "Civic Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100660627,
+							100653381,
+							100653383,
+							100653382,
+							100653385,
+							100653384,
+							100653386,
+							100742948,
+							100653389,
+							100653388,
+							100660632
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100660632"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100653381"
+						}
+					},
+					{
+						"id": 200406894,
+						"identifier": "Coupe",
+						"name": "Civic Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100344091,
+							100344090,
+							100344089,
+							100344088,
+							100344087,
+							100344086,
+							100344085,
+							100344084,
+							100344083,
+							100344082,
+							100344081,
+							100344080,
+							100344078,
+							100344079,
+							100344076,
+							100344077
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100344090"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100344078"
+						}
+					},
+					{
+						"id": 200405919,
+						"identifier": "Coupe",
+						"name": "Civic Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100003246,
+							100003244,
+							100003245,
+							100003242,
+							100003243,
+							100003240,
+							100003241,
+							100003239,
+							100003234,
+							100003232,
+							100003233,
+							100003231,
+							100003225,
+							100003224,
+							100003226,
+							100003223
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100003241"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100003224"
+						}
+					},
+					{
+						"id": 200408765,
+						"identifier": "MUGEN Si",
+						"name": "Civic MUGEN Si",
+						"ruleType": "tuner",
+						"styleIds": [
+							100954988
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100954988"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100954988"
+						}
+					},
+					{
+						"id": 200407477,
+						"identifier": "Si",
+						"name": "Civic Si",
+						"ruleType": "tuner",
+						"styleIds": [
+							100677617,
+							100677616,
+							100677619,
+							100677618
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100677617"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100677616"
+						}
+					},
+					{
+						"id": 200405612,
+						"identifier": "Sedan",
+						"name": "Civic Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100001243,
+							100001256,
+							100001242,
+							100001257,
+							100001245,
+							100001244,
+							100001235,
+							100001234,
+							100001237,
+							100001254,
+							100001236,
+							100001255
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100001244"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100001237"
+						}
+					},
+					{
+						"id": 200406103,
+						"identifier": "Coupe",
+						"name": "Civic Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100178467,
+							100178470,
+							100178471,
+							100178468,
+							100178469,
+							100178474,
+							100178475,
+							100178472,
+							100178473,
+							100178478,
+							100178479,
+							100178476,
+							100178477,
+							100178482,
+							100178481,
+							100178480
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100178469"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100178467"
+						}
+					},
+					{
+						"id": 200407279,
+						"identifier": "Natural Gas",
+						"name": "Civic Natural Gas",
+						"ruleType": "fuel",
+						"styleIds": [
+							100519762,
+							100519761
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100519762"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100519761"
+						}
+					},
+					{
+						"id": 200409653,
+						"identifier": "Coupe",
+						"name": "Civic Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							101209937,
+							101209936,
+							101209922,
+							101209923,
+							101209924,
+							101209925,
+							101209926,
+							101209927,
+							101209928,
+							101209929,
+							101209930,
+							101209931,
+							101209932,
+							101209933,
+							101209934,
+							101209935
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101209937"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101209922"
+						}
+					},
+					{
+						"id": 200407994,
+						"identifier": "Sedan",
+						"name": "Civic Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100822978,
+							100804560,
+							100804561,
+							100822959,
+							100822958,
+							100825607,
+							100814261,
+							100822999,
+							100804557,
+							100804556,
+							100804559,
+							100804558,
+							100804555,
+							100825608,
+							100804554
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100822978"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100804554"
+						}
+					},
+					{
+						"id": 200406102,
+						"identifier": "Hatchback",
+						"name": "Civic Hatchback",
+						"ruleType": "body",
+						"styleIds": [
+							100178496,
+							100178495
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100178496"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100178495"
+						}
+					},
+					{
+						"id": 200408764,
+						"identifier": "Hybrid",
+						"name": "Civic Hybrid",
+						"ruleType": "fuel",
+						"styleIds": [
+							100943567,
+							100943566
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100943566"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100943566"
+						}
+					},
+					{
+						"id": 200407475,
+						"identifier": "Coupe",
+						"name": "Civic Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100653377,
+							100653376,
+							100653379,
+							100653378,
+							100677617,
+							100677616,
+							100653380,
+							100677619,
+							100677618,
+							100653374,
+							100653375,
+							100653373
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100653380"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100653373"
+						}
+					},
+					{
+						"id": 200410236,
+						"identifier": "Si",
+						"name": "Civic Si",
+						"ruleType": "tuner",
+						"styleIds": [
+							101357847,
+							101357846,
+							101357845,
+							101357810,
+							101357811,
+							101357809
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101357846"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101357810"
+						}
+					},
+					{
+						"id": 200409231,
+						"identifier": "Coupe",
+						"name": "Civic Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							101061072,
+							101061070,
+							101061071,
+							101061068,
+							101061069,
+							101061066,
+							101061067,
+							101061064,
+							101061065,
+							101061062,
+							101061063,
+							101061060,
+							101061061,
+							101061058,
+							101061059,
+							101061057
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101061069"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101061057"
+						}
+					},
+					{
+						"id": 200409656,
+						"identifier": "Sedan",
+						"name": "Civic Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							101209954,
+							101209955,
+							101209952,
+							101209953,
+							101209958,
+							101209959,
+							101209956,
+							101209957,
+							101209960,
+							101209961,
+							101209939,
+							101209938,
+							101209941,
+							101209940,
+							101209943,
+							101209942,
+							101209945,
+							101209944,
+							101209947,
+							101209946,
+							101209949,
+							101209948,
+							101209951,
+							101209950
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101209940"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101209938"
+						}
+					},
+					{
+						"id": 200409234,
+						"identifier": "Sedan",
+						"name": "Civic Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							101061140,
+							101061141,
+							101061142,
+							101061139,
+							101061148,
+							101061149,
+							101061150,
+							101061151,
+							101061144,
+							101061145,
+							101061146,
+							101061147,
+							101061158,
+							101061157,
+							101061156,
+							101061155,
+							101061154,
+							101061153,
+							101061152,
+							101061078,
+							101061166,
+							101061077,
+							101061076,
+							101061181
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101061154"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101061076"
+						}
+					},
+					{
+						"id": 200406106,
+						"identifier": "Hybrid",
+						"name": "Civic Hybrid",
+						"ruleType": "fuel",
+						"styleIds": [
+							100075663,
+							100075664
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100075663"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100075664"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Sedan",
+						"name": "Civic Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							3902,
+							3904,
+							3909
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/3904"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/3902"
+						}
+					},
+					{
+						"id": 200407992,
+						"identifier": "Natural Gas",
+						"name": "Civic Natural Gas",
+						"ruleType": "fuel",
+						"styleIds": [
+							100814261
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100814261"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100814261"
+						}
+					},
+					{
+						"id": 200409655,
+						"identifier": "Si",
+						"name": "Civic Si",
+						"ruleType": "tuner",
+						"styleIds": [
+							101209954,
+							101209937,
+							101209955,
+							101209936,
+							101209956,
+							101209957,
+							101209934,
+							101209935
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101209937"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101209935"
+						}
+					},
+					{
+						"id": 200407476,
+						"identifier": "Natural Gas",
+						"name": "Civic Natural Gas",
+						"ruleType": "fuel",
+						"styleIds": [
+							100742948
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100742948"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100742948"
+						}
+					},
+					{
+						"id": 200405920,
+						"identifier": "Natural Gas",
+						"name": "Civic Natural Gas",
+						"ruleType": "fuel",
+						"styleIds": [
+							100075133,
+							100075134
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100075134"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100075134"
+						}
+					},
+					{
+						"id": 200406105,
+						"identifier": "Sedan",
+						"name": "Civic Sedan",
+						"ruleType": "body",
+						"styleIds": [
+							100075664,
+							100195842,
+							100195843,
+							100178483,
+							100178487,
+							100075663,
+							100178486,
+							100178485,
+							100178484,
+							100178491,
+							100178490,
+							100178489,
+							100178488,
+							100178494,
+							100178493,
+							100178492
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100195843"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100178485"
+						}
+					},
+					{
+						"id": 200410238,
+						"identifier": "Hybrid",
+						"name": "Civic Hybrid",
+						"ruleType": "fuel",
+						"styleIds": [
+							101357851,
+							101357850,
+							101357849,
+							101357848
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101357848"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101357848"
+						}
+					},
+					{
+						"id": 200405611,
+						"identifier": "Coupe",
+						"name": "Civic Coupe",
+						"ruleType": "body",
+						"styleIds": [
+							100001241,
+							100001240,
+							100001246,
+							100001233,
+							100001232,
+							100001239,
+							100001238,
+							100002290,
+							100002289,
+							100001230,
+							100001231,
+							100001250,
+							100001251,
+							100001248,
+							100001252,
+							100001253
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100001252"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100001233"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Wagon",
+						"name": "Civic Wagon",
+						"ruleType": "body",
+						"styleIds": [
+							3884,
+							3885
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/3884"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/3884"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_S2000",
+			"name": "S2000",
+			"niceName": "s2000",
+			"modelLinkCode": "M030286",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/s2000/2008",
+					"id": "100524309",
+					"year": "2008"
+				},
+				{
+					"link": "/api/vehicle/honda/s2000/2001",
+					"id": "100000121",
+					"year": "2001"
+				},
+				{
+					"link": "/api/vehicle/honda/s2000/2002",
+					"id": "100000409",
+					"year": "2002"
+				},
+				{
+					"link": "/api/vehicle/honda/s2000/2009",
+					"id": "100526169",
+					"year": "2009"
+				},
+				{
+					"link": "/api/vehicle/honda/s2000/2003",
+					"id": "100502807",
+					"year": "2003"
+				},
+				{
+					"link": "/api/vehicle/honda/s2000/2007",
+					"id": "100519444",
+					"year": "2007"
+				},
+				{
+					"link": "/api/vehicle/honda/s2000/2000",
+					"id": "389",
+					"year": "2000"
+				},
+				{
+					"link": "/api/vehicle/honda/s2000/2006",
+					"id": "100506843",
+					"year": "2006"
+				},
+				{
+					"link": "/api/vehicle/honda/s2000/2005",
+					"id": "100505007",
+					"year": "2005"
+				},
+				{
+					"link": "/api/vehicle/honda/s2000/2004",
+					"id": "100503596",
+					"year": "2004"
+				}
+			],
+			"attributeGroups": {
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"USE_IN_NEW": {
+							"id": 10,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"NAME": {
+							"id": 1,
+							"name": "NAME",
+							"value": "S2000"
+						},
+						"YEAR": {
+							"id": 2,
+							"name": "YEAR",
+							"value": "2004"
+						},
+						"WORKFLOWSTATUS": {
+							"id": 9223372036854776000,
+							"name": "WORKFLOWSTATUS",
+							"value": "Published"
+						},
+						"USE_IN_FUTURE": {
+							"id": 595,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 12,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_USED": {
+							"id": 11,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 20,
+							"name": "MODEL_LINK_CODE",
+							"value": "M030286"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 3,
+							"name": "ED_MODEL_ID",
+							"value": "100503596"
+						}
+					}
+				}
+			},
+			"categories": {
+				"Vehicle Size": [
+					"Compact"
+				],
+				"PRIMARY_BODY_TYPE": [
+					"Car"
+				],
+				"Vehicle Style": [
+					"Convertible"
+				],
+				"Vehicle Type": [
+					"Car"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"N/A",
+					"Factory Tuner",
+					"Performance",
+					"High-Performance"
+				]
+			},
+			"publicationStates": [
+				"USED"
+			],
+			"subModels": {
+				"USED": [
+					{
+						"id": 200408793,
+						"identifier": "Convertible",
+						"name": "S2000 Convertible",
+						"ruleType": "body",
+						"styleIds": [
+							100946086,
+							100946102,
+							100946097
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100946097"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100946086"
+						}
+					},
+					{
+						"id": 200407286,
+						"identifier": "Convertible",
+						"name": "S2000 Convertible",
+						"ruleType": "body",
+						"styleIds": [
+							100454267
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100454267"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100454267"
+						}
+					},
+					{
+						"id": 200405925,
+						"identifier": "Convertible",
+						"name": "S2000 Convertible",
+						"ruleType": "body",
+						"styleIds": [
+							100070032
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100070032"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100070032"
+						}
+					},
+					{
+						"id": 200407886,
+						"identifier": "Convertible",
+						"name": "S2000 Convertible",
+						"ruleType": "body",
+						"styleIds": [
+							100652271
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100652271"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100652271"
+						}
+					},
+					{
+						"id": 200406328,
+						"identifier": "Convertible",
+						"name": "S2000 Convertible",
+						"ruleType": "body",
+						"styleIds": [
+							100183162
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100183162"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100183162"
+						}
+					},
+					{
+						"id": 200409253,
+						"identifier": "CR",
+						"name": "S2000 CR",
+						"ruleType": "tuner",
+						"styleIds": [
+							101068558,
+							101068559
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101068559"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101068558"
+						}
+					},
+					{
+						"id": 200408306,
+						"identifier": "Convertible",
+						"name": "S2000 Convertible",
+						"ruleType": "body",
+						"styleIds": [
+							100800929
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100800929"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100800929"
+						}
+					},
+					{
+						"id": 200408794,
+						"identifier": "CR",
+						"name": "S2000 CR",
+						"ruleType": "tuner",
+						"styleIds": [
+							100946102,
+							100946097
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100946097"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100946097"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "Convertible",
+						"name": "S2000 Convertible",
+						"ruleType": "body",
+						"styleIds": [
+							1889
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/1889"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/1889"
+						}
+					},
+					{
+						"id": 200409252,
+						"identifier": "Convertible",
+						"name": "S2000 Convertible",
+						"ruleType": "body",
+						"styleIds": [
+							101068557,
+							101068558,
+							101068559
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101068559"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101068557"
+						}
+					},
+					{
+						"id": 200405606,
+						"identifier": "Convertible",
+						"name": "S2000 Convertible",
+						"ruleType": "body",
+						"styleIds": [
+							100001280
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100001280"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100001280"
+						}
+					},
+					{
+						"id": 200406902,
+						"identifier": "Convertible",
+						"name": "S2000 Convertible",
+						"ruleType": "body",
+						"styleIds": [
+							100348367
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100348367"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100348367"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Pilot",
+			"name": "Pilot",
+			"niceName": "pilot",
+			"modelLinkCode": "M030639",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/pilot/2008",
+					"id": "100523489",
+					"year": "2008"
+				},
+				{
+					"link": "/api/vehicle/honda/pilot/2010",
+					"id": "100528269",
+					"year": "2010"
+				},
+				{
+					"link": "/api/vehicle/honda/pilot/2012",
+					"id": "100537269",
+					"year": "2012"
+				},
+				{
+					"link": "/api/vehicle/honda/pilot/2004",
+					"id": "100503595",
+					"year": "2004"
+				},
+				{
+					"link": "/api/vehicle/honda/pilot/2009",
+					"id": "100524031",
+					"year": "2009"
+				},
+				{
+					"link": "/api/vehicle/honda/pilot/2011",
+					"id": "100531729",
+					"year": "2011"
+				},
+				{
+					"link": "/api/vehicle/honda/pilot/2007",
+					"id": "100519282",
+					"year": "2007"
+				},
+				{
+					"link": "/api/vehicle/honda/pilot/2006",
+					"id": "100506446",
+					"year": "2006"
+				},
+				{
+					"link": "/api/vehicle/honda/pilot/2005",
+					"id": "100505006",
+					"year": "2005"
+				},
+				{
+					"link": "/api/vehicle/honda/pilot/2003",
+					"id": "100502700",
+					"year": "2003"
+				},
+				{
+					"link": "/api/vehicle/honda/pilot/2013",
+					"id": "200433126",
+					"year": "2013"
+				}
+			],
+			"attributeGroups": {
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"NAME": {
+							"id": 1,
+							"name": "NAME",
+							"value": "Pilot"
+						},
+						"USE_IN_NEW": {
+							"id": 10,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"YEAR": {
+							"id": 2,
+							"name": "YEAR",
+							"value": "2004"
+						},
+						"WORKFLOWSTATUS": {
+							"id": 9223372036854776000,
+							"name": "WORKFLOWSTATUS",
+							"value": "Published"
+						},
+						"USE_IN_USED": {
+							"id": 11,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 12,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_FUTURE": {
+							"id": 595,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 20,
+							"name": "MODEL_LINK_CODE",
+							"value": "M030639"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 3,
+							"name": "ED_MODEL_ID",
+							"value": "100503595"
+						}
+					}
+				}
+			},
+			"categories": {
+				"Crossover": [
+					"Crossover"
+				],
+				"PRIMARY_BODY_TYPE": [
+					"SUV"
+				],
+				"Vehicle Size": [
+					"Midsize"
+				],
+				"Vehicle Style": [
+					"4dr SUV"
+				],
+				"Vehicle Type": [
+					"SUV"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"Crossover",
+					"N/A"
+				]
+			},
+			"publicationStates": [
+				"NEW_USED",
+				"NEW",
+				"USED"
+			],
+			"subModels": {
+				"NEW": [
+					{
+						"id": 200433153,
+						"identifier": "SUV",
+						"name": "Pilot SUV",
+						"ruleType": "body",
+						"styleIds": [
+							200433129,
+							200433128,
+							200433131,
+							200433130,
+							200433133,
+							200433132,
+							200433135,
+							200433134,
+							200433136,
+							200433137,
+							200433138,
+							200433127
+						],
+						"publicationStates": [
+							"NEW"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/200433135"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/200433138"
+						}
+					}
+				],
+				"USED": [
+					{
+						"id": 200408584,
+						"identifier": "SUV",
+						"name": "Pilot SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100891100,
+							100891101,
+							100891096,
+							100891097,
+							100891071,
+							100891098,
+							100891099,
+							100891111,
+							100891110,
+							100891109,
+							100891088,
+							100891072
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100891111"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100891071"
+						}
+					},
+					{
+						"id": 200407758,
+						"identifier": "SUV",
+						"name": "Pilot SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100645217,
+							100645202,
+							100645216,
+							100645200,
+							100645201,
+							100645199,
+							100645214,
+							100645198,
+							100645215,
+							100645213
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100645201"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100645198"
+						}
+					},
+					{
+						"id": 200408701,
+						"identifier": "SUV",
+						"name": "Pilot SUV",
+						"ruleType": "body",
+						"styleIds": [
+							101006922,
+							101006923,
+							101006924,
+							101006925,
+							101006926,
+							101006927,
+							101006929,
+							101006928,
+							101006931,
+							101006930,
+							101006933,
+							101006932
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101006923"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101006922"
+						}
+					},
+					{
+						"id": 200409987,
+						"identifier": "SUV",
+						"name": "Pilot SUV",
+						"ruleType": "body",
+						"styleIds": [
+							101305778,
+							101305779,
+							101305776,
+							101305777,
+							101305782,
+							101305783,
+							101305780,
+							101305781,
+							101305775,
+							101305774,
+							101305773,
+							101305772
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101305781"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101305772"
+						}
+					},
+					{
+						"id": 200406901,
+						"identifier": "SUV",
+						"name": "Pilot SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100343941,
+							100343940,
+							100343943,
+							100343942,
+							100343944
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100343944"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100343940"
+						}
+					},
+					{
+						"id": 200406179,
+						"identifier": "SUV",
+						"name": "Pilot SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100076605,
+							100076606,
+							100076607,
+							100076609,
+							100076608
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100076607"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100076605"
+						}
+					},
+					{
+						"id": 200408264,
+						"identifier": "SUV",
+						"name": "Pilot SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100782727,
+							100782726,
+							100782725,
+							100782724,
+							100782723,
+							100782722,
+							100782719,
+							100782721,
+							100782720,
+							100782728
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100782726"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100782719"
+						}
+					},
+					{
+						"id": 200409504,
+						"identifier": "SUV",
+						"name": "Pilot SUV",
+						"ruleType": "body",
+						"styleIds": [
+							101172638,
+							101172637,
+							101172636,
+							101172635,
+							101172634,
+							101172633,
+							101172632,
+							101172631,
+							101172630,
+							101172629,
+							101172628,
+							101172627
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101172638"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101172627"
+						}
+					},
+					{
+						"id": 200410635,
+						"identifier": "SUV",
+						"name": "Pilot SUV",
+						"ruleType": "body",
+						"styleIds": [
+							101404604,
+							101404605,
+							101404606,
+							101404607,
+							101404600,
+							101404601,
+							101404602,
+							101404603,
+							101404610,
+							101404609,
+							101404599,
+							101404608
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101404603"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101404599"
+						}
+					},
+					{
+						"id": 200407285,
+						"identifier": "SUV",
+						"name": "Pilot SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100467376,
+							100467377,
+							100467375,
+							100467374,
+							100467373
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100467377"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100467373"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Element",
+			"name": "Element",
+			"niceName": "element",
+			"modelLinkCode": "M030623",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/element/2010",
+					"id": "100530229",
+					"year": "2010"
+				},
+				{
+					"link": "/api/vehicle/honda/element/2008",
+					"id": "100523474",
+					"year": "2008"
+				},
+				{
+					"link": "/api/vehicle/honda/element/2009",
+					"id": "100526494",
+					"year": "2009"
+				},
+				{
+					"link": "/api/vehicle/honda/element/2006",
+					"id": "100507043",
+					"year": "2006"
+				},
+				{
+					"link": "/api/vehicle/honda/element/2003",
+					"id": "100502661",
+					"year": "2003"
+				},
+				{
+					"link": "/api/vehicle/honda/element/2007",
+					"id": "100519283",
+					"year": "2007"
+				},
+				{
+					"link": "/api/vehicle/honda/element/2004",
+					"id": "100503592",
+					"year": "2004"
+				},
+				{
+					"link": "/api/vehicle/honda/element/2005",
+					"id": "100505004",
+					"year": "2005"
+				},
+				{
+					"link": "/api/vehicle/honda/element/2011",
+					"id": "100533652",
+					"year": "2011"
+				}
+			],
+			"attributeGroups": {
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"USE_IN_NEW": {
+							"id": 10,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"NAME": {
+							"id": 1,
+							"name": "NAME",
+							"value": "Element"
+						},
+						"YEAR": {
+							"id": 2,
+							"name": "YEAR",
+							"value": "2011"
+						},
+						"WORKFLOWSTATUS": {
+							"id": 9223372036854776000,
+							"name": "WORKFLOWSTATUS",
+							"value": "Published"
+						},
+						"USE_IN_FUTURE": {
+							"id": 595,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 12,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_USED": {
+							"id": 11,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 20,
+							"name": "MODEL_LINK_CODE",
+							"value": "M030623"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 3,
+							"name": "ED_MODEL_ID",
+							"value": "100533652"
+						}
+					}
+				}
+			},
+			"categories": {
+				"Crossover": [
+					"Crossover"
+				],
+				"Vehicle Size": [
+					"Compact"
+				],
+				"PRIMARY_BODY_TYPE": [
+					"SUV"
+				],
+				"Vehicle Style": [
+					"4dr SUV"
+				],
+				"Vehicle Type": [
+					"SUV"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"Crossover",
+					"N/A"
+				]
+			},
+			"publicationStates": [
+				"USED"
+			],
+			"subModels": {
+				"USED": [
+					{
+						"id": 200406898,
+						"identifier": "SUV",
+						"name": "Element SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100375793,
+							100375792,
+							100375794,
+							100375779,
+							100375780,
+							100375781,
+							100375782,
+							100375783,
+							100375784,
+							100375785,
+							100375786,
+							100375787,
+							100375788,
+							100375789,
+							100375790,
+							100375791
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100375790"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100375779"
+						}
+					},
+					{
+						"id": 200407931,
+						"identifier": "SUV",
+						"name": "Element SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100666562,
+							100666576,
+							100666561,
+							100666577,
+							100666560,
+							100666556,
+							100666557,
+							100666558,
+							100666559,
+							100666575,
+							100666574,
+							100666555
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100666577"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100666555"
+						}
+					},
+					{
+						"id": 200409324,
+						"identifier": "SUV",
+						"name": "Element SUV",
+						"ruleType": "body",
+						"styleIds": [
+							101120572,
+							101120557,
+							101120573,
+							101120574,
+							101120575,
+							101120558,
+							101120582,
+							101120578,
+							101120577,
+							101120576
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101120575"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101120557"
+						}
+					},
+					{
+						"id": 200407283,
+						"identifier": "SUV",
+						"name": "Element SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100507160,
+							100507161,
+							100507162,
+							100507163,
+							100507156,
+							100507157,
+							100507158,
+							100507159
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100507163"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100507156"
+						}
+					},
+					{
+						"id": 200408265,
+						"identifier": "SUV",
+						"name": "Element SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100785746,
+							100785745,
+							100785744,
+							100785739,
+							100785742,
+							100785743,
+							100785740,
+							100785757,
+							100785741,
+							100785756
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100785746"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100785739"
+						}
+					},
+					{
+						"id": 200410301,
+						"identifier": "SUV",
+						"name": "Element SUV",
+						"ruleType": "body",
+						"styleIds": [
+							101367577,
+							101367576,
+							101367578,
+							101367575
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101367578"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101367575"
+						}
+					},
+					{
+						"id": 200406129,
+						"identifier": "SUV",
+						"name": "Element SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100201633,
+							100201635,
+							100201634,
+							100201262,
+							100201260,
+							100291068,
+							100201261,
+							100291069,
+							100201258,
+							100201259,
+							100291067,
+							100201257
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100291069"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100201257"
+						}
+					},
+					{
+						"id": 200409775,
+						"identifier": "SUV",
+						"name": "Element SUV",
+						"ruleType": "body",
+						"styleIds": [
+							101242800,
+							101242801,
+							101242799,
+							101242798,
+							101242922,
+							101242923,
+							101242924
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/101242801"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/101242798"
+						}
+					},
+					{
+						"id": 200408578,
+						"identifier": "SUV",
+						"name": "Element SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100890737,
+							100890736,
+							100890732,
+							100890733,
+							100890753,
+							100890734,
+							100890751,
+							100890752,
+							100890735,
+							100890750
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100890732"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100890732"
+						}
+					}
+				]
+			}
+		},
+		{
+			"makeId": 200001444,
+			"makeName": "Honda",
+			"makeNiceName": "honda",
+			"id": "Honda_Passport",
+			"name": "Passport",
+			"niceName": "passport",
+			"modelLinkCode": "M030284",
+			"make": {
+				"link": "/api/vehicle/honda"
+			},
+			"modelYears": [
+				{
+					"link": "/api/vehicle/honda/passport/1997",
+					"id": "2167",
+					"year": "1997"
+				},
+				{
+					"link": "/api/vehicle/honda/passport/1995",
+					"id": "2166",
+					"year": "1995"
+				},
+				{
+					"link": "/api/vehicle/honda/passport/2001",
+					"id": "100000123",
+					"year": "2001"
+				},
+				{
+					"link": "/api/vehicle/honda/passport/1996",
+					"id": "789",
+					"year": "1996"
+				},
+				{
+					"link": "/api/vehicle/honda/passport/1999",
+					"id": "3540",
+					"year": "1999"
+				},
+				{
+					"link": "/api/vehicle/honda/passport/1994",
+					"id": "2165",
+					"year": "1994"
+				},
+				{
+					"link": "/api/vehicle/honda/passport/2002",
+					"id": "100000407",
+					"year": "2002"
+				},
+				{
+					"link": "/api/vehicle/honda/passport/2000",
+					"id": "415",
+					"year": "2000"
+				},
+				{
+					"link": "/api/vehicle/honda/passport/1998",
+					"id": "2168",
+					"year": "1998"
+				}
+			],
+			"attributeGroups": {
+				"MAIN": {
+					"id": 1,
+					"name": "MAIN",
+					"attributes": {
+						"USE_IN_NEW": {
+							"id": 0,
+							"name": "USE_IN_NEW",
+							"value": "N"
+						},
+						"NAME": {
+							"id": 0,
+							"name": "NAME",
+							"value": "Passport"
+						},
+						"YEAR": {
+							"id": 0,
+							"name": "YEAR",
+							"value": "1994"
+						},
+						"USE_IN_FUTURE": {
+							"id": 0,
+							"name": "USE_IN_FUTURE",
+							"value": "N"
+						},
+						"USE_IN_PRE_PRODUCTION": {
+							"id": 0,
+							"name": "USE_IN_PRE_PRODUCTION",
+							"value": "N"
+						},
+						"USE_IN_USED": {
+							"id": 0,
+							"name": "USE_IN_USED",
+							"value": "Y"
+						},
+						"MODEL_LINK_CODE": {
+							"id": 0,
+							"name": "MODEL_LINK_CODE",
+							"value": "M030284"
+						}
+					}
+				},
+				"LEGACY": {
+					"id": 64,
+					"name": "LEGACY",
+					"attributes": {
+						"ED_MODEL_ID": {
+							"id": 0,
+							"name": "ED_MODEL_ID",
+							"value": "2165"
+						}
+					}
+				}
+			},
+			"categories": {
+				"Vehicle Size": [
+					"Midsize"
+				],
+				"PRIMARY_BODY_TYPE": [
+					"SUV"
+				],
+				"Vehicle Style": [
+					"4dr SUV"
+				],
+				"Vehicle Type": [
+					"SUV"
+				],
+				"Tier Five  - Vehicle Market Perception": [
+					"N/A"
+				]
+			},
+			"publicationStates": [
+				"USED"
+			],
+			"subModels": {
+				"USED": [
+					{
+						"id": 200405609,
+						"identifier": "SUV",
+						"name": "Passport SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100001275,
+							100001274,
+							100001273,
+							100001272,
+							100001276,
+							100001271,
+							100001270,
+							100001269
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100001271"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100001274"
+						}
+					},
+					{
+						"id": 0,
+						"identifier": "SUV",
+						"name": "Passport SUV",
+						"ruleType": "body",
+						"styleIds": [
+							10910,
+							11130,
+							11133,
+							11132
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/11133"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/11133"
+						}
+					},
+					{
+						"id": 200405924,
+						"identifier": "SUV",
+						"name": "Passport SUV",
+						"ruleType": "body",
+						"styleIds": [
+							100003263,
+							100003262,
+							100003261,
+							100003260,
+							100003259,
+							100003258,
+							100003257,
+							100003264
+						],
+						"publicationStates": [
+							"USED"
+						],
+						"submodelNewDefaultStyle": {
+							"link": "/api/vehicle/style/100003258"
+						},
+						"submodelUsedDefaultStyle": {
+							"link": "/api/vehicle/style/100003262"
+						}
+					}
+				]
+			}
+		}
+	]
+}

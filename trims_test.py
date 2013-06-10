@@ -10,11 +10,12 @@ style_dict = demjson.decode(styleString)
 keys_as_is = { 'price', 'name' }
 new_style_dict = {}
 new_style_dict["styleHolder"] = []
-new_style_dict["styleHolder"].append( {} )
-for key in keys_as_is:
-	print key
-	new_style_dict["styleHolder"][0][key] = style_dict["styleHolder"][0][key]
 
+for style in style_dict["styleHolder"]: # array of dicts, style is a dict
+	temp_dict = {}
+	for key in keys_as_is:
+		temp_dict[key] = style[key]
+	new_style_dict["styleHolder"].append( temp_dict )
 
 print new_style_dict
 
