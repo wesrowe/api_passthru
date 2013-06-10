@@ -60,10 +60,11 @@ def crossdomain(origin=None, methods=None, headers=None,
 def hello():
     return "Hello World!"
 
+# GENERIC
 @app.route("/api/<api_path>")
 def genericPassthru(api_path):
 	query = request.query_string
-	edm_qry = "http://api.edmunds.com/v1/api/vehicle/stylerepository/" + api_path + '?' + query + '&api_key=sbzh2xtvh99h73pzr398c2fc&fmt=json'
+	edm_qry = "http://api.edmunds.com/v1/api/vehicle/stylerepository/" + api_path + '?' + query #+ '&api_key=sbzh2xtvh99h73pzr398c2fc&fmt=json'
 #http://api.edmunds.com/v1/api/vehicle/stylerepository/findstylesbymakemodelyear?make=honda&model=accord&year=2003&api_key=sbzh2xtvh99h73pzr398c2fc&fmt=json
 	try:
 		edResponse = requests.get(edm_qry)
@@ -76,6 +77,26 @@ def genericPassthru(api_path):
 	print style_dict["styleHolder"][0]["modelName"] # prints to terminal
 	return style_dict["styleHolder"][0]["modelName"]
 	return styleObj # this returns api string in its entirety, successfully.
+
+@app.route("/trims/<api_path>")
+@crossdomain(origin='*')
+def trimPassthru(api_path):
+	query = request.query_string
+	edm_qry = "http://api.edmunds.com/v1/api/vehicle/stylerepository/" + api_path + '?' + query
+	try:
+		edResponse = requests.get(edm_qry)
+	except requests.ConnectionError:
+		return "Connection Error"
+	styleObj = edResponse.text
+	style_dict = demjson.decode(styleObj)
+	# keys I need here are just  name and price... but maybe keep others around for in-case?  Hell no.
+	keys_as_is = { 'price', 'name' }
+	new_style_dict = {}
+	new_style_dict["styleHolder"] = []
+	new_style_dict["styleHolder"].append( {} )
+	for key in keys_as_is:
+		new_style_dict["styleHolder"][0][key] = style_dict["styleHolder"][0][key]
+	return demjson.encode( new_style_dict )
 
 @app.route("/fullstyleapi/<styleID_to_get>") #, methods=['GET'])
 @crossdomain(origin='*')
