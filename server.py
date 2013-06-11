@@ -117,7 +117,7 @@ def trimPassthru(api_call):
 	styleObj = edResponse.text
 	style_dict = demjson.decode(styleObj)
 	# keys I need here are just  name and price...
-	keys_as_is = { 'price', 'name' }
+	keys_as_is = { 'price', 'name', 'id','makeName','makeNiceName','modelNiceName','modelName','year' }
 	new_style_dict = {}
 	new_style_dict["styleHolder"] = []
 	
